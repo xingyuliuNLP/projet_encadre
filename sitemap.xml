@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/2/</loc>
+    <loc>/webscraping/1/</loc>
+    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/frontend/2/</loc>
+    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/webscraping/2/</loc>
     <lastmod>2019-12-21T00:00:00+01:00</lastmod>
   </url>
   
@@ -13,10 +23,6 @@
   
   <url>
     <loc>/backup/demo/</loc>
-  </url>
-  
-  <url>
-    <loc>/backup/skills/</loc>
   </url>
   
   <url>
@@ -48,14 +54,6 @@
   </url>
   
   <url>
-    <loc>/backup/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/backup/contact/</loc>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
@@ -71,12 +69,17 @@
   </url>
   
   <url>
-    <loc>/courses/1/</loc>
+    <loc>/frontend/1/</loc>
     <lastmod>2019-12-21T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>/frontend/</loc>
+    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/webscraping/</loc>
     <lastmod>2019-12-21T00:00:00+01:00</lastmod>
   </url>
   
@@ -91,13 +94,13 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>/authors/admin/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -118,16 +121,6 @@
   <url>
     <loc>/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -161,11 +154,6 @@
   </url>
   
   <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -181,22 +169,12 @@
   </url>
   
   <url>
-    <loc>/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/demo/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -216,12 +194,12 @@
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/categories/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -231,17 +209,7 @@
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -253,6 +221,10 @@
   <url>
     <loc>/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xiaoou/</loc>
   </url>
   
   <url>
