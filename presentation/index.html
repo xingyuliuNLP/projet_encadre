@@ -572,7 +572,7 @@
 
 <p>Nous avons, en outre, utilisé le logiciel minigrep, qui en faisant appel à Perl, a été capable d’afficher sur le navigateur une visualisation plus « user-friendly » des contextes où l’on trouve le mot choisi.</p>
 
-<p>Quant au contenu chinois, puisque nous ne pouvons pas le segmenter avec une expression régulière simple, nous avons eu recours au module JIEBA, spécialisé en segmentation du texte chinois. Concernant cela, vous verrez notre script Python <a href="/presentation/seg_jieba.py">ici</a>.</p>
+<p>Quant au contenu chinois, puisque nous ne pouvons pas le segmenter avec une expression régulière simple, nous avons eu recours au module JIEBA, spécialisé en segmentation du texte chinois. Concernant cela, vous verrez notre script Python <a href="/projet_encadre/presentation/seg_jieba.py">ici</a>.</p>
 
 <p>Après avoir fini le script bash pour afficher toutes les informations dans le tableau, nous le trouvions hyper lourd et peu lisible. Nous avons ainsi reconstruit notre script en deux fichier : main_script.sh et funcitons.sh, disons &lsquo;refactoring&rsquo; en anglais.</p>
 
@@ -580,7 +580,7 @@
 
 <h2 id="4-analyse-textométrique-itrameur"><code>4. Analyse textométrique iTrameur</code></h2>
 
-<p>Une fois que nous avons obtenu nos dump textes, nous avons les concaténés avec un <a href="/presentation/concatenate.sh">script bash</a> en rajoutant les balises <dump>.</p>
+<p>Une fois que nous avons obtenu nos dump textes, nous avons les concaténés avec un <a href="/projet_encadre/presentation/concatenate.sh">script bash</a> en rajoutant les balises <dump>.</p>
 
 <p>On s’est plongées ensuite sur iTrameur pour interpréter ces dump textes. iTrameur (version en ligne du logiciel Trameur) constitue un outil d&rsquo;analyse textométrique mis en marche par Serge Fleury. Pour que l&rsquo;iTrameur puisse reconnaître les mots chinois, nous avons segmenté le corpus chinois à l&rsquo;aide de JIEBA et ajouté le délimiteur espace lors de l&rsquo;importation dans l&rsquo;iTrameur.</p>
 
