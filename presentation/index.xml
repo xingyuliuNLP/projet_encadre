@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Présentation du projet | Guerre Commerciale</title>
-    <link>/presentation/</link>
-      <atom:link href="/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliunlp.github.io/projet_encadre/presentation/</link>
+      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/presentation/index.xml" rel="self" type="application/rss+xml" />
     <description>Présentation du projet</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
       <title>Présentation du projet</title>
-      <link>/presentation/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/presentation/</link>
     </image>
     
   </channel>

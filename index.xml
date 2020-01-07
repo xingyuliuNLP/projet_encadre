@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guerre Commerciale</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliunlp.github.io/projet_encadre/</link>
+      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/index.xml" rel="self" type="application/rss+xml" />
     <description>Guerre Commerciale</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
       <title>Guerre Commerciale</title>
-      <link>/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/</link>
     </image>
     
     <item>
       <title>Cours 2 - Préambule Unix I</title>
-      <link>/blog/1/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/1/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
-      <guid>/blog/1/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/1/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Système de fichiers&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
@@ -68,128 +68,10 @@ Bonjour
     </item>
     
     <item>
-      <title>second</title>
-      <link>/frontend/2/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>/frontend/2/</guid>
-      <description>
-
-&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
-cd .. # remonte au repertoire parent
-cd / # aller a la racine
-echo &amp;quot;# exemple de l&#39;arborescence de la racine sous Mac&amp;quot;
-ls # exemple de l&#39;arborescence de la racine sous Mac
-cd ~ # aller a home
-echo &amp;quot;# sortie de la commande cat&amp;quot;
-echo &amp;quot;Bonjour&amp;quot; &amp;gt; test.txt
-cat test.txt # visualiser le contenu d&#39;un fichier
-echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
-wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;/Users/becca/Downloads/siteProjetEncadre/content/frontend
-# exemple de l&#39;arborescence de la racine sous Mac
-Applications
-Developer
-Incompatible Software
-Library
-Network
-System
-Users
-Volumes
-anaconda3
-bin
-cores
-dev
-etc
-home
-installer.failurerequests
-net
-opt
-private
-sbin
-tmp
-usr
-var
-# sortie de la commande cat
-Bonjour
-# montrer les metadonnes du contenu
-       1       1       8 test.txt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Syntax&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Header&lt;/td&gt;
-&lt;td&gt;Title&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Paragraph&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
-
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-Call:
-lm(formula = dist ~ speed, data = cars)
-
-Coefficients:
-(Intercept)        speed  
-    -17.579        3.932  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/frontend/2_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Cours 3 - Préambule Unix II</title>
-      <link>/blog/2/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/2/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
-      <guid>/blog/2/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/2/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;1. Flux d&amp;rsquo;entrée &amp;amp; de sortie &amp;amp; d&amp;rsquo;erreur&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# flux d’erreur standard &amp;quot;&amp;gt;&amp;gt;&amp;quot; (sortie normal) vs. 2&amp;gt; (canal d’erreur)
@@ -248,9 +130,9 @@ bonjour
     
     <item>
       <title>Cours 4 - Préparation du projet</title>
-      <link>/blog/3/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/3/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
-      <guid>/blog/3/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/3/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
 &lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
 &lt;br&gt;&lt;/p&gt;
@@ -312,9 +194,9 @@ done
     
     <item>
       <title>Cours 6 - Détection de l’encodage d’URL</title>
-      <link>/blog/4/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/4/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0200</pubDate>
-      <guid>/blog/4/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/4/</guid>
       <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -324,7 +206,7 @@ done
 &lt;li&gt;&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
-&lt;img src=&#34;/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -431,9 +313,9 @@ echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp
     
     <item>
       <title>Cours 7 - Rajouter 4 colonnes dans la table d&#39;URLs</title>
-      <link>/blog/5/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/5/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
-      <guid>/blog/5/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/5/</guid>
       <description>&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -489,22 +371,22 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
     
     <item>
       <title>Cours 8 - Résolution du problème d&#39;encodage</title>
-      <link>/blog/6/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/6/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
-      <guid>/blog/6/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/6/</guid>
       <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&amp;rsquo;était pas un type d&amp;rsquo;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/font&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/blog/_index_files/encodage.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xingyuliunlp.github.io/projet_encadre/blog/_index_files/encodage.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cours 9 - méthode 2 de de la segmentation du chinois</title>
-      <link>/blog/7/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/7/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
-      <guid>/blog/7/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/7/</guid>
       <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. &lt;/font&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;
@@ -553,15 +435,15 @@ if __name__ == &amp;quot;__main__&amp;quot;:
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/blog/_index_files/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xingyuliunlp.github.io/projet_encadre/blog/_index_files/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cours 10 - Reconstruction du code (Refactoring)</title>
-      <link>/blog/8/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/8/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
-      <guid>/blog/8/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/8/</guid>
       <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. &lt;/font&gt;&lt;/font&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
@@ -714,17 +596,17 @@ procVide(){
     
     <item>
       <title>Cours 11 - Analyse du corpus sur iTrameur</title>
-      <link>/blog/9/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/blog/9/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
-      <guid>/blog/9/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/blog/9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>/backup/hero/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/hero/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/hero/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Build &lt;strong&gt;Anything&lt;/strong&gt; with Widgets&lt;/p&gt;
@@ -735,9 +617,9 @@ procVide(){
     
     <item>
       <title>Demos</title>
-      <link>/backup/demo/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/demo/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/demo/</guid>
       <description>&lt;p&gt;Welcome to the &lt;strong&gt;personal demo&lt;/strong&gt; of Academic. Other demos available include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -761,44 +643,44 @@ procVide(){
     
     <item>
       <title>Accomplish&amp;shy;ments</title>
-      <link>/backup/accomplishments/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/accomplishments/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/backup/projects/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/projects/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meet the Team</title>
-      <link>/backup/people/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/people/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/backup/talks/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/talks/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/backup/publications/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/publications/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/publications/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Quickly discover relevant content by &lt;a href=&#34;/publication/&#34;&gt;filtering publications&lt;/a&gt;.
+    Quickly discover relevant content by &lt;a href=&#34;https://xingyuliunlp.github.io/projet_encadre/publication/&#34;&gt;filtering publications&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -806,9 +688,9 @@ procVide(){
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -829,135 +711,17 @@ procVide(){
     
     <item>
       <title>Nous nous sommes penchés sur la représentation de la guerre commerciale sur la toile des pays anglophones, de la Chine, et de la France.</title>
-      <link>/publication/conference-paper/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/publication/conference-paper/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/publication/conference-paper/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>1 article</title>
-      <link>/frontend/1/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>/frontend/1/</guid>
-      <description>
-
-&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
-cd .. # remonte au repertoire parent
-cd / # aller a la racine
-echo &amp;quot;# exemple de l&#39;arborescence de la racine sous Mac&amp;quot;
-ls # exemple de l&#39;arborescence de la racine sous Mac
-cd ~ # aller a home
-echo &amp;quot;# sortie de la commande cat&amp;quot;
-echo &amp;quot;Bonjour&amp;quot; &amp;gt; test.txt
-cat test.txt # visualiser le contenu d&#39;un fichier
-echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
-wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;/Users/becca/Downloads/siteProjetEncadre/content/frontend
-# exemple de l&#39;arborescence de la racine sous Mac
-Applications
-Developer
-Incompatible Software
-Library
-Network
-System
-Users
-Volumes
-anaconda3
-bin
-cores
-dev
-etc
-home
-installer.failurerequests
-net
-opt
-private
-sbin
-tmp
-usr
-var
-# sortie de la commande cat
-Bonjour
-# montrer les metadonnes du contenu
-       1       1       8 test.txt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Syntax&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Header&lt;/td&gt;
-&lt;td&gt;Title&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Paragraph&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
-
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;
-Call:
-lm(formula = dist ~ speed, data = cars)
-
-Coefficients:
-(Intercept)        speed  
-    -17.579        3.932  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/frontend/1_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/post/writing-technical-content/</guid>
       <description>
 
 &lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
@@ -1234,9 +998,9 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/post/jupyter/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
@@ -1301,9 +1065,9 @@ date: 2019-09-01
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/slides/example/</guid>
       <description>
 
 &lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
@@ -1481,36 +1245,18 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>External Project</title>
-      <link>/project/external-project/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -1525,9 +1271,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
@@ -1645,9 +1391,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -1687,7 +1433,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

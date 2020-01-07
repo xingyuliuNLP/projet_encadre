@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Guerre Commerciale</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliunlp.github.io/projet_encadre/publication/</link>
+      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/publication/</link>
     </image>
     
     <item>
       <title>Nous nous sommes penchés sur la représentation de la guerre commerciale sur la toile des pays anglophones, de la Chine, et de la France.</title>
-      <link>/publication/conference-paper/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/publication/conference-paper/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/publication/conference-paper/</guid>
       <description></description>
     </item>
     

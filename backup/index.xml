@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backups | Guerre Commerciale</title>
-    <link>/backup/</link>
-      <atom:link href="/backup/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliunlp.github.io/projet_encadre/backup/</link>
+      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/backup/index.xml" rel="self" type="application/rss+xml" />
     <description>Backups</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
       <title>Backups</title>
-      <link>/backup/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/</link>
     </image>
     
     <item>
       <title>Academic</title>
-      <link>/backup/hero/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/hero/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/hero/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Build &lt;strong&gt;Anything&lt;/strong&gt; with Widgets&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Demos</title>
-      <link>/backup/demo/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/demo/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/demo/</guid>
       <description>&lt;p&gt;Welcome to the &lt;strong&gt;personal demo&lt;/strong&gt; of Academic. Other demos available include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -53,17 +53,17 @@
     
     <item>
       <title>Accomplish&amp;shy;ments</title>
-      <link>/backup/accomplishments/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/accomplishments/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/backup/projects/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/projects/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/projects/</guid>
       <description></description>
     </item>
     
@@ -95,8 +95,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-1950s.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-1950s.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -104,8 +104,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-apogee.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-apogee.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -113,8 +113,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-coffee-playfair.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-coffee-playfair.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -122,8 +122,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-dark.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-dark.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -131,8 +131,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-default.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-default.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -140,8 +140,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-forest.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-forest.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -149,8 +149,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-ocean.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-ocean.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -158,8 +158,8 @@
     
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/backup/gallery/gallery/theme-strawberry.png&#34; &gt;
-  &lt;img data-src=&#34;/backup/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-strawberry.png&#34; &gt;
+  &lt;img data-src=&#34;https://xingyuliunlp.github.io/projet_encadre/projet_encadre/backup/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -170,28 +170,28 @@
     
     <item>
       <title>Meet the Team</title>
-      <link>/backup/people/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/people/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/backup/talks/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/talks/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/backup/publications/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/backup/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/publications/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/backup/publications/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Quickly discover relevant content by &lt;a href=&#34;/publication/&#34;&gt;filtering publications&lt;/a&gt;.
+    Quickly discover relevant content by &lt;a href=&#34;https://xingyuliunlp.github.io/projet_encadre/publication/&#34;&gt;filtering publications&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Guerre Commerciale</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliunlp.github.io/projet_encadre/authors/</link>
+      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/authors/</link>
     </image>
     
     <item>
       <title>Xiaoou WANG</title>
-      <link>/authors/xiaoou-wang/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/authors/xiaoou-wang/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoou-wang/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/authors/xiaoou-wang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xingyu LIU</title>
-      <link>/authors/xingyu-liu/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/authors/xingyu-liu/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/xingyu-liu/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/authors/xingyu-liu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>admin</title>
-      <link>/authors/admin/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/authors/admin/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/authors/admin/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/xiaoou/</link>
+      <link>https://xingyuliunlp.github.io/projet_encadre/authors/xiaoou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoou/</guid>
+      <guid>https://xingyuliunlp.github.io/projet_encadre/authors/xiaoou/</guid>
       <description>&lt;p&gt;&lt;code&gt;Thème&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Sur fond de tension entre &lt;strong&gt;la Chine et les Etats-Unis&lt;/strong&gt;, nous nous sommes penchés sur la &lt;em&gt;représentation de la guerre commerciale&lt;/em&gt; sur la toile des &lt;strong&gt;pays anglophones, de la Chine, et de la France&lt;/strong&gt;.&lt;/p&gt;
