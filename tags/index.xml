@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Guerre Commerciale</title>
-    <link>/projet_encadre/tags/</link>
-      <atom:link href="/projet_encadre/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>/projet_encadre/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/projet_encadre/tags/</link>
+      <link>/tags/</link>
     </image>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liste des scripts | Guerre Commerciale</title>
-    <link>/projet_encadre/scripts/</link>
-      <atom:link href="/projet_encadre/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <link>/scripts/</link>
+      <atom:link href="/scripts/index.xml" rel="self" type="application/rss+xml" />
     <description>Liste des scripts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/projet_encadre/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Liste des scripts</title>
-      <link>/projet_encadre/scripts/</link>
+      <link>/scripts/</link>
     </image>
     
   </channel>
