@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Guerre Commerciale</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/projet_encadre/authors/</link>
+      <atom:link href="/projet_encadre/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/projet_encadre/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>/projet_encadre/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/xiaoou/</link>
+      <link>/projet_encadre/authors/xiaoou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoou/</guid>
+      <guid>/projet_encadre/authors/xiaoou/</guid>
       <description>&lt;p&gt;&lt;code&gt;Thème&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Sur fond de tension entre &lt;strong&gt;la Chine et les Etats-Unis&lt;/strong&gt;, nous nous sommes penchés sur la &lt;em&gt;représentation de la guerre commerciale&lt;/em&gt; sur la toile des &lt;strong&gt;pays anglophones, de la Chine, et de la France&lt;/strong&gt;.&lt;/p&gt;

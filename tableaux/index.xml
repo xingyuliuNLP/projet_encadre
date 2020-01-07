@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Présentation des tableaux | Guerre Commerciale</title>
-    <link>/tableaux/</link>
-      <atom:link href="/tableaux/index.xml" rel="self" type="application/rss+xml" />
+    <link>/projet_encadre/tableaux/</link>
+      <atom:link href="/projet_encadre/tableaux/index.xml" rel="self" type="application/rss+xml" />
     <description>Présentation des tableaux</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/projet_encadre/img/icon-192.png</url>
       <title>Présentation des tableaux</title>
-      <link>/tableaux/</link>
+      <link>/projet_encadre/tableaux/</link>
     </image>
     
   </channel>
