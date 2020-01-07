@@ -2,31 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Guerre Commerciale</title>
-    <link>https://xingyuliuNLP.github.io/projet_encadre/tags/</link>
-      <atom:link href="https://xingyuliuNLP.github.io/projet_encadre/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>/projet_encadre/tags/</link>
+      <atom:link href="/projet_encadre/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>https://xingyuliuNLP.github.io/projet_encadre/img/icon-192.png</url>
+      <url>/projet_encadre/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://xingyuliuNLP.github.io/projet_encadre/tags/</link>
+      <link>/projet_encadre/tags/</link>
     </image>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://xingyuliuNLP.github.io/projet_encadre/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://xingyuliuNLP.github.io/projet_encadre/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://xingyuliuNLP.github.io/projet_encadre/tags/r/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://xingyuliuNLP.github.io/projet_encadre/tags/r/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

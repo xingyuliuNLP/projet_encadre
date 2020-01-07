@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guerre Commerciale</title>
-    <link>https://xingyuliuNLP.github.io/projet_encadre/authors/xiaoou/</link>
-      <atom:link href="https://xingyuliuNLP.github.io/projet_encadre/authors/xiaoou/index.xml" rel="self" type="application/rss+xml" />
+    <link>/projet_encadre/authors/xiaoou/</link>
+      <atom:link href="/projet_encadre/authors/xiaoou/index.xml" rel="self" type="application/rss+xml" />
     <description>Guerre Commerciale</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>https://xingyuliuNLP.github.io/projet_encadre/img/icon-192.png</url>
+      <url>/projet_encadre/img/icon-192.png</url>
       <title>Guerre Commerciale</title>
-      <link>https://xingyuliuNLP.github.io/projet_encadre/authors/xiaoou/</link>
+      <link>/projet_encadre/authors/xiaoou/</link>
     </image>
     
   </channel>

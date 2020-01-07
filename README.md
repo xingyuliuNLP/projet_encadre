@@ -1,1 +1,0 @@
-Ce site est hébergé à l'adresse https://xingyuliunlp.github.io/projet_encadre/.
