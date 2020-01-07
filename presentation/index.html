@@ -492,35 +492,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/xiaoouwang" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/xiaoouwangfr" target="_blank" rel="noopener"><span><i class="fab fa-twitter" style="color: #55acee; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://spectrum.chat/data-science?tab=posts" target="_blank" rel="noopener"><span><i class="fas fa-comments" style="color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25"></i></span></a>
+          <a class="nav-link" href="https://github.com/xingyuliuNLP/projet_encadre" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
         </li>
 
         
@@ -580,32 +552,55 @@
 
 <div class="universal-wrapper">
   
-  <div class="article-style"><h2 id="1-choix-du-terme"><code>1. Choix du terme</code></h2>
-<p>La guerre commerciale est susceptible de causer une récession générale.</p>
+  <div class="article-style">
+
+<h2 id="1-choix-du-terme"><code>1. Choix du terme</code></h2>
+
+<p>La <code>guerre commerciale</code> est susceptible de causer une récession générale.</p>
+
 <p>Les Etats-Unis semblent considérer que la montée de la Chine menace déjà son hégémonie, alors que la Chine, aspirant à des progrès économiques toujours plus importants, prennent la défense de ses propres intérêts.</p>
-<h2 id="2-les-hypothse"><code>2. Les hypothèse</code></h2>
+
+<h2 id="2-les-hypothèses"><code>2. Les hypothèses</code></h2>
+
 <p>Nous avons choisi l’a`glais, le chinois et le français. Chaque région linguistique prend sa propre position face à cette guerre.</p>
+
 <p>Sur la toile des pays anglophones la guerre commerciale serait liée à des notions comme menace. En Chine cela serait plutôt lié à l’impérialisme. En France, la conceptualisation de cette guerre serait plus neutre et moins assujettie à des conflits idéologiques.</p>
-<h2 id="3-construction-de-notre-script"><code>3. Construction de notre script</code></h2>
+
+<h2 id="3-construction-de-nos-scripts"><code>3. Construction de nos scripts</code></h2>
+
 <p>Nous avons créé notre script en langage Bash, ce qui nous a permis de télécharger le contenu de nos sites en format .html et .txt mais également de réaliser d’autres tâches telles que l’affichage sur un tableau .html de l’encodage de chaque site, son encodage initial s’il ne s’agissait pas de l’UTF-8 et la création des bi-grams permettant de visualiser les occurrences les plus fréquents dans chaque texte.</p>
+
 <p>Nous avons, en outre, utilisé le logiciel minigrep, qui en faisant appel à Perl, a été capable d’afficher sur le navigateur une visualisation plus « user-friendly » des contextes où l’on trouve le mot choisi.</p>
+
 <p>Quant au contenu chinois, puisque nous ne pouvons pas le segmenter avec une expression régulière simple, nous avons eu recours au module JIEBA, spécialisé en segmentation du texte chinois. Concernant cela, vous verrez notre script Python <a href="/presentation/_index_files/seg_jieba.py">ici</a>.</p>
+
 <p>Après avoir fini le script bash pour afficher toutes les informations dans le tableau, nous le trouvions hyper lourd et peu lisible. Nous avons ainsi reconstruit notre script en deux fichier : main_script.sh et funcitons.sh, disons &lsquo;refactoring&rsquo; en anglais.</p>
+
 <p>Si vous souhaitez consulter lex tableaux, consultez la page <a href="/tableaux">tableaux</a> de notre site.</p>
-<h2 id="4-analyse-textomtrique-itrameur"><code>4. Analyse textométrique iTrameur</code></h2>
+
+<h2 id="4-analyse-textométrique-itrameur"><code>4. Analyse textométrique iTrameur</code></h2>
+
 <p>Une fois que nous avons obtenu nos dump textes, nous avons les concaténés avec un <a href="/presentation/_index_files/concatenate.sh">script bash</a> en rajoutant les balises <dump>.</p>
-<p>On s’est plongées ensuite sur iTrameur pour interpréter ces dump textes. iTrameur (version en ligne du logiciel Trameur) constitue un outil d'analyse textométrique mis en marche par Serge Fleury. Pour que l'iTrameur puisse reconnaître les mots chinois, nous avons segmenté le corpus chinois à l'aide de JIEBA et ajouté le délimiteur espace lors de l'importation dans l'iTrameur.</p>
-<p>Vous trouverez l'analyse en détail <a href="/itrameur">sur la page iTrameur</a>.</p>
+
+<p>On s’est plongées ensuite sur iTrameur pour interpréter ces dump textes. iTrameur (version en ligne du logiciel Trameur) constitue un outil d&rsquo;analyse textométrique mis en marche par Serge Fleury. Pour que l&rsquo;iTrameur puisse reconnaître les mots chinois, nous avons segmenté le corpus chinois à l&rsquo;aide de JIEBA et ajouté le délimiteur espace lors de l&rsquo;importation dans l&rsquo;iTrameur.</p>
+
+<p>Vous trouverez l&rsquo;analyse en détail <a href="/itrameur">sur la page iTrameur</a>.</p>
+
 <h2 id="5-nuages-de-mots"><code>5. Nuages de mots</code></h2>
+
 <p>Pour générer des nuages de mots, nous avons utilisé l’outil en ligne <a href="https://wordart.com/">WordArt</a> afin de visualiser les résultats. La raison pour laquelle nous avons choisi cet outil réside sur le fait qu’il est possible de choisir des masques de nuages avec la forme souhaitée par l’utilisateur.</p>
-<p>Pourtant, pour la raison de police, certains caractères chinois ne peut pas s'afficher. Nous avons utilisé des scripts Python pour générer le nuage chinois :</p>
+
+<p>Pourtant, pour la raison de police, certains caractères chinois ne peut pas s&rsquo;afficher. Nous avons utilisé des scripts Python pour générer le nuage chinois :</p>
+
 <ul>
 <li><a href="/presentation/_index_files/cleantext.py">cleantext.py</a> pour nettoyer le texte en gardant seulement les caractères chinois</li>
 <li><a href="/presentation/_index_files/chnSegment.py">chnSegment.py</a> pour segmenter les mots</li>
 <li><a href="/presentation/_index_files/plotWordcloud.py">plotWordcloud.py</a> pour générer le nuage de mots</li>
 <li><a href="/presentation/_index_files/main.py">main.py</a> qui appelle tout et nous renvoie le résultat</li>
 </ul>
+
 <p>Les trois derniers scripts font référence à <a href="https://github.com/zhengyangca/wordcloud_jieba_statistics">JIEBA WORDCLOUD</a></p>
+
 <p>Pour visualiser les nuages de mots, cliquez <a href="/nuage">sur la page Nuage de mots</a>.</p>
 </div>
   

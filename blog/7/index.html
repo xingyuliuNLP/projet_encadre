@@ -29,6 +29,7 @@
     
   
   <meta name="description" content="Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. 
+
 #!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f.">
 
   
@@ -225,6 +226,7 @@
   <meta property="og:url" content="/blog/7/">
   <meta property="og:title" content="Cours 9 - méthode 2 de de la segmentation du chinois | Guerre Commerciale">
   <meta property="og:description" content="Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. 
+
 #!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f."><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="fr">
   
@@ -497,35 +499,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/xiaoouwang" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/xiaoouwangfr" target="_blank" rel="noopener"><span><i class="fab fa-twitter" style="color: #55acee; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://spectrum.chat/data-science?tab=posts" target="_blank" rel="noopener"><span><i class="fas fa-comments" style="color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25"></i></span></a>
+          <a class="nav-link" href="https://github.com/xingyuliuNLP/projet_encadre" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
         </li>
 
         
@@ -642,7 +616,7 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      <nav id="TableOfContents"></nav>
+      
 
       
     </div>
@@ -657,8 +631,10 @@
 
           <div class="article-style">
             <p><font size="4">Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. </font></p>
-<br>
-<br>
+
+<p><br>
+<br></p>
+
 <pre><code class="language-python">#!/usr/bin/python
 # _*_ coding: utf-8 _*_
 
@@ -689,16 +665,20 @@ def token_file(file):
 if __name__ == &quot;__main__&quot;:
     token_file(sys.argv[2])
 </code></pre>
-<br>
+
+<p><br>
 <font size="4"><font size="4">Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.</font></font>
-<br>
+<br></p>
+
 <pre><code class="language-bash">python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
 </code></pre>
+
+<p><br>
+<font size="4"><font size="4">Nous avons ensuite fait un test en prenant un de nos dump textes comme l&rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&rsquo;affiche en haut tandis que celui de Stanford se trouve en bas. </font></font>
 <br>
-<font size="4"><font size="4">Nous avons ensuite fait un test en prenant un de nos dump textes comme l'input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s'affiche en haut tandis que celui de Stanford se trouve en bas. </font></font>
-<br>
-<br>
-<img src="/blog/_index_files/screenshot_515.jpg">
+<br></p>
+
+<p><img src="/blog/_index_files/screenshot_515.jpg"></p>
 
           </div>
 

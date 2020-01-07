@@ -17,9 +17,11 @@
       <link>/blog/1/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/blog/1/</guid>
-      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Système de fichiers&lt;/font&gt;&lt;/center&gt;
+      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Système de fichiers&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+
 &lt;p&gt;Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
 &lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
 cd .. # remonte au repertoire parent
 cd / # aller a la racine
@@ -32,18 +34,25 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/blog
+
+&lt;pre&gt;&lt;code&gt;/Users/becca/Downloads/siteProjetEncadre/content/blog
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
+Developer
+Incompatible Software
 Library
+Network
 System
 Users
 Volumes
+anaconda3
 bin
 cores
 dev
 etc
 home
+installer.failurerequests
+net
 opt
 private
 sbin
@@ -63,7 +72,10 @@ Bonjour
       <link>/frontend/2/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
       <guid>/frontend/2/</guid>
-      <description>&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
 cd .. # remonte au repertoire parent
 cd / # aller a la racine
@@ -76,18 +88,25 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
+
+&lt;pre&gt;&lt;code&gt;/Users/becca/Downloads/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
+Developer
+Incompatible Software
 Library
+Network
 System
 Users
 Volumes
+anaconda3
 bin
 cores
 dev
 etc
 home
+installer.failurerequests
+net
 opt
 private
 sbin
@@ -99,6 +118,7 @@ Bonjour
 # montrer les metadonnes du contenu
        1       1       8 test.txt
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -106,21 +126,27 @@ Bonjour
 &lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Header&lt;/td&gt;
 &lt;td&gt;Title&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;Paragraph&lt;/td&gt;
 &lt;td&gt;Text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
+
 &lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;     speed           dist       
  Min.   : 4.0   Min.   :  2.00  
  1st Qu.:12.0   1st Qu.: 26.00  
@@ -129,9 +155,11 @@ Bonjour
  3rd Qu.:19.0   3rd Qu.: 56.00  
  Max.   :25.0   Max.   :120.00  
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
 fit
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;
 Call:
 lm(formula = dist ~ speed, data = cars)
@@ -140,6 +168,7 @@ Coefficients:
 (Intercept)        speed  
     -17.579        3.932  
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
@@ -148,6 +177,7 @@ pie(
   init.angle = -50, border = NA
 )
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/frontend/2_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
@@ -160,7 +190,8 @@ pie(
       <link>/blog/2/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/blog/2/</guid>
-      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;1. Flux d&#39;entrée &amp; de sortie &amp; d&#39;erreur&lt;/font&gt;&lt;/center&gt;
+      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;1. Flux d&amp;rsquo;entrée &amp;amp; de sortie &amp;amp; d&amp;rsquo;erreur&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# flux d’erreur standard &amp;quot;&amp;gt;&amp;gt;&amp;quot; (sortie normal) vs. 2&amp;gt; (canal d’erreur)
 cd ~
 lsd &amp;gt; sortie.txt 2&amp;gt; erreur.txt
@@ -170,22 +201,28 @@ cat testN.txt
 # Exercice : majusculiser les données
 tr &amp;quot;[[:lower:]]&amp;quot; &amp;quot;[[:upper:]]&amp;quot; &amp;lt; test.txt
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;BoNjour
 BONJOUR
 &lt;/code&gt;&lt;/pre&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;2. Redirection du flux d’information&lt;/font&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;2. Redirection du flux d’information&lt;/font&gt;&lt;/center&gt;
 &lt;br&gt;
-Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |
+Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# transformer &amp;quot;é&amp;quot; en &amp;quot;E&amp;quot; puis majusculiser l&#39;output de la première commande
 cd ~
 tr &amp;quot;é&amp;quot; &amp;quot;E&amp;quot; &amp;lt; test.txt | tr &amp;quot;[[:lower:]]&amp;quot; &amp;quot;[[:upper:]]&amp;quot;
 # trier par le premier champ - sort ; filtrage de doublons - uniq
 egrep -o &amp;quot;\w+&amp;quot; test.txt | sort | uniq -c
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;BONJOUR
    1 Bonjour
 &lt;/code&gt;&lt;/pre&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;3. Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/font&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;3. Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# couper les données en 2 champs par le délimiteur &amp;quot;=&amp;quot;
 cd ~
 echo &amp;quot;la somme de 2+2=4&amp;quot; &amp;gt; test2.txt
@@ -195,12 +232,16 @@ echo &amp;quot;nom ?&amp;quot; ;
 # read nom;
 echo &amp;quot;bonjour $nom&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;4
 nom ?
 bonjour 
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;nom ?&lt;/p&gt;
+
 &lt;p&gt;wang&lt;/p&gt;
+
 &lt;p&gt;bonjour wang&lt;/p&gt;
 </description>
     </item>
@@ -210,12 +251,13 @@ bonjour
       <link>/blog/3/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/blog/3/</guid>
-      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
+      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
 &lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;Nous avons créé l&#39;arborescence de travail à l&#39;aide du script bash suivant nommé &amp;lsquo;prepare-environnement-projet.sh&amp;rsquo;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;Nous avons créé l&amp;rsquo;arborescence de travail à l&amp;rsquo;aide du script bash suivant nommé &amp;lsquo;prepare-environnement-projet.sh&amp;rsquo;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
 mkdir PROJET_MOT_SUR_LE_WEB
 cd PROJET_MOT_SUR_LE_WEB
@@ -230,15 +272,18 @@ mkdir ./URLS;
 # les lignes precedentes peuvent tenir sur une seule ligne
 # a savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
 # le dossier URLS contiendra le fichier initial d&#39;URLs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Il suffit de nous positionner dans le même répertoire que ce script et l&#39;exécuter avec bash&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Il suffit de nous positionner dans le même répertoire que ce script et l&amp;rsquo;exécuter avec bash&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bash prepare-environnement-projet.sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
 &lt;br&gt;
-_J&#39;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&#39;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&#39;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie_
+&lt;em&gt;J&amp;rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&amp;rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&amp;rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie&lt;/em&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
 # on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
 echo &amp;quot;&amp;quot; &amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
@@ -270,39 +315,48 @@ done
       <link>/blog/4/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/blog/4/</guid>
-      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;
+      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
-&lt;img src=&#34;/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
+&lt;img src=&#34;/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Problèmes rencontrés&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Problèmes rencontrés&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;p&gt;Je n’ai pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des informations d’erreurs suivantes :&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200: command not found # ou [405: command not found
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200==200]: command not found
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;La première erreur provient de&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [ $coderetour == 200 ]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;J&#39;ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
+
+&lt;p&gt;J&amp;rsquo;ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
 Tandis que la deuxième est à cause de&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [$coderetour==200]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;ce qui n&#39;obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
-J&#39;ai aussi essayé de comprendre la différence entre simples et doubles crochets et j&#39;ai trouvé une réponse raisonnable
+
+&lt;p&gt;ce qui n&amp;rsquo;obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
+J&amp;rsquo;ai aussi essayé de comprendre la différence entre simples et doubles crochets et j&amp;rsquo;ai trouvé une réponse raisonnable
 Les conditions à doubles crochets permettent tout ce qu’offrent les conditions à simples crochets et plus, par exemple, elles proposent l’usage du wildcard comme en bash ainsi que des expressions régulières.&lt;/p&gt;
+
 &lt;p&gt;Voici la dernière version de script accompagné des explications de certaines commandes bash dans les commentaire.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
 # on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
 echo &amp;quot;&amp;quot; &amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
@@ -380,20 +434,25 @@ echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp
       <link>/blog/5/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/blog/5/</guid>
-      <description>&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&#39;input URL et celui de l&#39;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
-&lt;br&gt;
+      <description>&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
 &lt;p&gt;Les 4 colonnes rajoutées sont :&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;le contexte de mot-clé&lt;/li&gt;
 &lt;li&gt;sa fréquence dans chaque fichier dump&lt;/li&gt;
-&lt;li&gt;l&#39;index des mots présents dans chaque fichier dump&lt;/li&gt;
+&lt;li&gt;l&amp;rsquo;index des mots présents dans chaque fichier dump&lt;/li&gt;
 &lt;li&gt;les bigrammes&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Minigrep ou egrep&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
 &lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep&lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# ----06/11
 # METHODE 1 : trouver la ligne avant et la ligne après de la ligne contenant notre mot-clé avec egrep
 # egrep -i -C 2 $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; &amp;gt; &#39;../CONTEXTES/$numerotableau-$compteur.txt&#39;;
@@ -403,8 +462,10 @@ minigrep/minigrepmultilingue.pl &amp;quot;UTF-8&amp;quot; &#39;../DUMP-TEXT/$num
 # renommer le fichier obtenu
 mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Afin d&#39;obtenir des bigrammes, nous avons concaténé tous les mots d&#39;un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s&#39;applique pas au chinois à cause du fait que le chinois n&#39;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. &lt;/font&gt;&lt;/font&gt;
+
+&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Afin d&amp;rsquo;obtenir des bigrammes, nous avons concaténé tous les mots d&amp;rsquo;un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s&amp;rsquo;applique pas au chinois à cause du fait que le chinois n&amp;rsquo;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. &lt;/font&gt;&lt;/font&gt;
 &lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# \w+ ne marche que dans UTF-8
 # INDEX DES MOTS
 egrep -o &#39;\w+&#39; &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; | sort | uniq -c|sort -gr &amp;gt; &#39;../DUMP-TEXT/index-$numerotableau-$compteur.txt&#39;;
@@ -415,10 +476,12 @@ paste fic1 fic2 | sort | uniq -c | sort -gr &amp;gt; &#39;../DUMP-TEXT/bigrams-$
 ## COMPTER LE MOTIF
 frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;);
 &lt;/code&gt;&lt;/pre&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Stanford Chinese Segmenter&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&#39;usage de cet outil, tout est clair sur son site (https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml] &lt;/font&gt;&lt;/font&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&amp;rsquo;usage de cet outil, tout est clair sur son site (&lt;a href=&#34;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&#34;&gt;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&lt;/a&gt;] &lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
 &lt;/code&gt;&lt;/pre&gt;
 </description>
@@ -429,9 +492,11 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
       <link>/blog/6/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/blog/6/</guid>
-      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Lors de la détection de l&#39;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&#39;était pas un type d&#39;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/font&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;img src=&#34;/blog/_index_files/encodage.png&#34;&gt;
+      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&amp;rsquo;était pas un type d&amp;rsquo;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/blog/_index_files/encodage.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -441,8 +506,10 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/blog/7/</guid>
       <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. &lt;/font&gt;&lt;/p&gt;
-&lt;br&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/python
 # _*_ coding: utf-8 _*_
 
@@ -473,16 +540,20 @@ def token_file(file):
 if __name__ == &amp;quot;__main__&amp;quot;:
     token_file(sys.argv[2])
 &lt;/code&gt;&lt;/pre&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
 &lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.&lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&amp;rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&amp;rsquo;affiche en haut tandis que celui de Stanford se trouve en bas. &lt;/font&gt;&lt;/font&gt;
 &lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&#39;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&#39;affiche en haut tandis que celui de Stanford se trouve en bas. &lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;img src=&#34;/blog/_index_files/screenshot_515.jpg&#34;&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/blog/_index_files/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -491,9 +562,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
       <link>/blog/8/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/blog/8/</guid>
-      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&#39;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. &lt;/font&gt;&lt;/font&gt;
+      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. &lt;/font&gt;&lt;/font&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
 # importer les fonctions
 . /Users/becca/Documents/nlp/coursS1/projetEncadre/PROJET-MOT-SUR-LE-WEB/PROGRAMMES/functions.sh
@@ -559,8 +631,10 @@ numerotableau=$((numerotableau+1));
 done
 echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp;gt; $2/tableau2.html ;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;br&gt;
-&lt;br&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## functions
 # 1 html head
 ecrireMetaData(){
@@ -652,7 +726,9 @@ procVide(){
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/backup/hero/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Build &lt;strong&gt;Anything&lt;/strong&gt; with Widgets&lt;/p&gt;
+
 &lt;!-- &lt;span style=&#34;text-shadow: none;&#34;&gt;&lt;a class=&#34;github-button&#34; href=&#34;https://github.com/gcushen/hugo-academic&#34; data-icon=&#34;octicon-star&#34; data-size=&#34;large&#34; data-show-count=&#34;true&#34; aria-label=&#34;Star this on GitHub&#34;&gt;Star&lt;/a&gt;&lt;script async defer src=&#34;https://buttons.github.io/buttons.js&#34;&gt;&lt;/script&gt;&lt;/span&gt; --&gt;
 </description>
     </item>
@@ -663,15 +739,21 @@ procVide(){
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/backup/demo/</guid>
       <description>&lt;p&gt;Welcome to the &lt;strong&gt;personal demo&lt;/strong&gt; of Academic. Other demos available include:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;&lt;strong&gt;Project Demo&lt;/strong&gt; (Academic&#39;s actual site)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;&lt;strong&gt;Project Demo&lt;/strong&gt; (Academic&amp;rsquo;s actual site)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Over 100,000 &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;Amazing Websites&lt;/a&gt; have Already Been Built with Academic&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34;&gt;Join&lt;/a&gt; the Most Empowered Hugo Community&lt;/strong&gt;&lt;/p&gt;
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;This homepage section is an example of adding &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;elements&lt;/a&gt; to the &lt;a href=&#34;https://sourcethemes.com/academic/docs/widgets/&#34;&gt;&lt;em&gt;Blank&lt;/em&gt; widget&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Backgrounds can be applied to any section. Here, the &lt;em&gt;background&lt;/em&gt; option is set give an &lt;em&gt;image parallax&lt;/em&gt; effect.&lt;/p&gt;
+
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -732,12 +814,15 @@ procVide(){
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
   &lt;/div&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&#39;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
@@ -755,7 +840,10 @@ procVide(){
       <link>/frontend/1/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
       <guid>/frontend/1/</guid>
-      <description>&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
 cd .. # remonte au repertoire parent
 cd / # aller a la racine
@@ -768,18 +856,25 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
+
+&lt;pre&gt;&lt;code&gt;/Users/becca/Downloads/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
+Developer
+Incompatible Software
 Library
+Network
 System
 Users
 Volumes
+anaconda3
 bin
 cores
 dev
 etc
 home
+installer.failurerequests
+net
 opt
 private
 sbin
@@ -791,6 +886,7 @@ Bonjour
 # montrer les metadonnes du contenu
        1       1       8 test.txt
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -798,21 +894,27 @@ Bonjour
 &lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Header&lt;/td&gt;
 &lt;td&gt;Title&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;Paragraph&lt;/td&gt;
 &lt;td&gt;Text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
+
 &lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;     speed           dist       
  Min.   : 4.0   Min.   :  2.00  
  1st Qu.:12.0   1st Qu.: 26.00  
@@ -821,9 +923,11 @@ Bonjour
  3rd Qu.:19.0   3rd Qu.: 56.00  
  Max.   :25.0   Max.   :120.00  
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
 fit
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;
 Call:
 lm(formula = dist ~ speed, data = cars)
@@ -832,6 +936,7 @@ Coefficients:
 (Intercept)        speed  
     -17.579        3.932  
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
@@ -840,6 +945,7 @@ pie(
   init.angle = -50, border = NA
 )
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/frontend/1_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
@@ -852,45 +958,71 @@ pie(
       <link>/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+
 &lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
 &lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```python
 import pandas as pd
 data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
 data.head()
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
 data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
 data.head()
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
 &lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+
 &lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+
 &lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
 \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
 \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
 {\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
+
+&lt;p&gt;$$\gamma&lt;em&gt;{n} = \frac{ \left | \left (\mathbf x&lt;/em&gt;{n} - \mathbf x&lt;em&gt;{n-1} \right )^T \left [\nabla F (\mathbf x&lt;/em&gt;{n}) - \nabla F (\mathbf x&lt;em&gt;{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}&lt;/em&gt;{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
+
 &lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+
 &lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
+
+&lt;p&gt;$$f(k;p_0^&lt;em&gt;) = \begin{cases} p_0^&lt;/em&gt; &amp;amp; \text{if }k=1, &lt;br /&gt;
 1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
+
 &lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+
 &lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+
 &lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```mermaid
 graph TD
 A[Hard] --&amp;gt;|Text| B(Round)
@@ -899,14 +1031,18 @@ C --&amp;gt;|One| D[Result 1]
 C --&amp;gt;|Two| E[Result 2]
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
 A[Hard] --&amp;gt;|Text| B(Round)
 B --&amp;gt; C{Decision}
 C --&amp;gt;|One| D[Result 1]
 C --&amp;gt;|Two| E[Result 2]
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```mermaid
 sequenceDiagram
 Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
@@ -919,7 +1055,9 @@ John-&amp;gt;&amp;gt;Bob: How about you?
 Bob--&amp;gt;&amp;gt;John: Jolly good!
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
 Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
 loop Healthcheck
@@ -930,7 +1068,9 @@ John--&amp;gt;&amp;gt;Alice: Great!
 John-&amp;gt;&amp;gt;Bob: How about you?
 Bob--&amp;gt;&amp;gt;John: Jolly good!
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```mermaid
 gantt
 section Section
@@ -942,7 +1082,9 @@ Parallel 3   :         des5, after des3, 1d
 Parallel 4   :         des6, after des4, 1d
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
 section Section
 Completed :done,    des1, 2014-01-06,2014-01-08
@@ -952,7 +1094,9 @@ Parallel 2   :         des4, after des1, 1d
 Parallel 3   :         des5, after des3, 1d
 Parallel 4   :         des6, after des4, 1d
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```mermaid
 classDiagram
 Class01 &amp;lt;|-- AveryLongClass : Cool
@@ -972,7 +1116,9 @@ class Class10 {
 }
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
 Class01 &amp;lt;|-- AveryLongClass : Cool
 &amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
@@ -990,7 +1136,9 @@ class Class10 {
   size()
 }
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;```mermaid
 stateDiagram
 [*] --&amp;gt; Still
@@ -1001,7 +1149,9 @@ Moving --&amp;gt; Crash
 Crash --&amp;gt; [*]
 ```
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
 [*] --&amp;gt; Still
 Still --&amp;gt; [*]
@@ -1010,26 +1160,36 @@ Moving --&amp;gt; Still
 Moving --&amp;gt; Crash
 Crash --&amp;gt; [*]
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+
 &lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
 - [x] Write diagram example
 - [ ] Do something else
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Do something else&lt;/li&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write math example&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write diagram example&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Do something else&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+
 &lt;p&gt;Represent your data in tables:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1037,30 +1197,38 @@ Crash --&amp;gt; [*]
 &lt;th&gt;Second Header&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Content Cell&lt;/td&gt;
 &lt;td&gt;Content Cell&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;Content Cell&lt;/td&gt;
 &lt;td&gt;Content Cell&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
+
 &lt;p&gt;Academic supports a &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
 A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 {{% /alert %}}
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;renders as&lt;/p&gt;
+
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
 </description>
     </item>
     
@@ -1069,27 +1237,43 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;pre&gt;&lt;code&gt;Welcome to Academic!
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+
 &lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
 &lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
 cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
 jupyter lab index.ipynb
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+
 &lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
 &lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+
 &lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;---
 title: My post&#39;s title
 date: 2019-09-01
@@ -1097,13 +1281,20 @@ date: 2019-09-01
 # Put any other Academic metadata here...
 ---
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&#39;s folder.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
 &lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
 &lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1113,18 +1304,27 @@ date: 2019-09-01
       <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+      <description>
+
+&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;Academic&lt;/a&gt; | &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
 &lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
 &lt;li&gt;Supports speaker notes&lt;/li&gt;
 &lt;li&gt;Mobile friendly slides&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
@@ -1136,61 +1336,89 @@ date: 2019-09-01
 &lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
 &lt;p&gt;Code block:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
 if porridge == &amp;quot;blueberry&amp;quot;:
     print(&amp;quot;Eating...&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
 &lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
 &lt;p&gt;Block math:&lt;/p&gt;
+
 &lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
 $$&lt;/p&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
 {{% fragment %}} **Two** {{% /fragment %}}
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
 &lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+   One
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
+   Three
 &lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
 &lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
 - Only the speaker can read these notes
 - Press `S` key to view
 {{% /speaker_note %}}
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
 &lt;aside class=&#34;notes&#34;&gt;
   &lt;ul&gt;
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/aside&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
 &lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
@@ -1198,14 +1426,18 @@ Three
 &lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
 &lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;ul&gt;
 &lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
 &lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
 &lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
 &lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 
 &lt;section data-noprocess data-shortcode-slide
   
@@ -1213,25 +1445,37 @@ Three
       data-background-image=&#34;/img/boards.jpg&#34;
   &gt;
 
+
 &lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
 {{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
 {{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&#39;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
 &lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
 .reveal section h2,
 .reveal section h3 {
   color: navy;
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
+
+&lt;hr /&gt;
+
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://spectrum.chat/academic&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1268,9 +1512,13 @@ Three
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
@@ -1280,8 +1528,12 @@ Three
       <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&#39;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;👉 &lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;📚 &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -1291,15 +1543,16 @@ Three
 &lt;li&gt;💡 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;❤ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+
 &lt;ul&gt;
 &lt;li&gt;☕️ &lt;a href=&#34;https://paypal.me/cushen&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;💵 &lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🖼️ &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;👕 &lt;a href=&#34;https://academic.threadless.com/&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;👩‍💻 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+
 
 
 
@@ -1329,7 +1582,9 @@ Three
 
 &lt;/figure&gt;
 
+
 &lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
@@ -1347,28 +1602,43 @@ Three
 &lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
 &lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
 &lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
     </item>

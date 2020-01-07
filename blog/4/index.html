@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Pour conclure ce que nous avons fait les trois dernières séances :   Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”.">
+  <meta name="description" content="Pour conclure ce que nous avons fait les trois dernières séances :  Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”.">
 
   
   <link rel="alternate" hreflang="fr" href="/blog/4/">
@@ -223,7 +223,7 @@
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/blog/4/">
   <meta property="og:title" content="Cours 6 - Détection de l’encodage d’URL | Guerre Commerciale">
-  <meta property="og:description" content="Pour conclure ce que nous avons fait les trois dernières séances :   Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="Pour conclure ce que nous avons fait les trois dernières séances :  Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”."><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -495,35 +495,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/xiaoouwang" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/xiaoouwangfr" target="_blank" rel="noopener"><span><i class="fab fa-twitter" style="color: #55acee; font-size: 1rem; line-height: 1.25"></i></span></a>
-        </li>
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://spectrum.chat/data-science?tab=posts" target="_blank" rel="noopener"><span><i class="fas fa-comments" style="color: rgb(123, 22, 255); font-size: 1rem; line-height: 1.25"></i></span></a>
+          <a class="nav-link" href="https://github.com/xingyuliuNLP/projet_encadre" target="_blank" rel="noopener"><span><i class="fab fa-github-alt" style="color: #333; font-size: 1rem; line-height: 1.25"></i></span></a>
         </li>
 
         
@@ -640,7 +612,7 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      <nav id="TableOfContents"></nav>
+      
 
       
     </div>
@@ -654,39 +626,48 @@
           <h1>Cours 6 - Détection de l’encodage d’URL</h1>
 
           <div class="article-style">
-            <center><font size="3" color="blue"><center><font size="3" color="blue">Pour conclure ce que nous avons fait les trois dernières séances :</font></center></font></center>
-<br>
+            <p><center><font size="3" color="blue"><center><font size="3" color="blue">Pour conclure ce que nous avons fait les trois dernières séances :</font></center></font></center>
+<br></p>
+
 <ul>
-<li>
-<p>Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.</p>
-</li>
-<li>
-<p>Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.</p>
-</li>
-<li>
-<p>Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
-<img src="/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg" width ="95%"></p>
-</li>
+<li><p>Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.</p></li>
+
+<li><p>Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.</p></li>
+
+<li><p>Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
+<img src="/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg" width ="95%"></p></li>
 </ul>
-<br>
-<center><font size="3" color="blue"><center><font size="3" color="blue">Problèmes rencontrés</font></center></font></center>
-<br>
+
+<p><br></p>
+
+<p><center><font size="3" color="blue"><center><font size="3" color="blue">Problèmes rencontrés</font></center></font></center>
+<br></p>
+
 <p>Je n’ai pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des informations d’erreurs suivantes :</p>
+
 <pre><code class="language-bash">[200: command not found # ou [405: command not found
 </code></pre>
+
 <pre><code class="language-bash">[200==200]: command not found
 </code></pre>
+
 <p>La première erreur provient de</p>
+
 <pre><code class="language-bash">if [ $coderetour == 200 ]
 </code></pre>
-<p>J'ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
+
+<p>J&rsquo;ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
 Tandis que la deuxième est à cause de</p>
+
 <pre><code class="language-bash">if [$coderetour==200]
 </code></pre>
-<p>ce qui n'obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
-J'ai aussi essayé de comprendre la différence entre simples et doubles crochets et j'ai trouvé une réponse raisonnable
+
+<p>ce qui n&rsquo;obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
+J&rsquo;ai aussi essayé de comprendre la différence entre simples et doubles crochets et j&rsquo;ai trouvé une réponse raisonnable
 Les conditions à doubles crochets permettent tout ce qu’offrent les conditions à simples crochets et plus, par exemple, elles proposent l’usage du wildcard comme en bash ainsi que des expressions régulières.</p>
+
 <p>Voici la dernière version de script accompagné des explications de certaines commandes bash dans les commentaire.</p>
+
 <pre><code class="language-bash"># !/bin/bash
 # on commence par effacer l'éventuel contenu de ficher que l'on doit réécrire
 echo &quot;&quot; &gt; &quot;$2/tableau.html&quot;;
