@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catégories | Guerre Commerciale</title>
-    <link>https://xingyuliunlp.github.io/projet_encadre/categories/</link>
-      <atom:link href="https://xingyuliunlp.github.io/projet_encadre/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://xingyuliuNLP.github.io/projet_encadre/categories/</link>
+      <atom:link href="https://xingyuliuNLP.github.io/projet_encadre/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Catégories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
-      <url>https://xingyuliunlp.github.io/projet_encadre/img/icon-192.png</url>
+      <url>https://xingyuliuNLP.github.io/projet_encadre/img/icon-192.png</url>
       <title>Catégories</title>
-      <link>https://xingyuliunlp.github.io/projet_encadre/categories/</link>
+      <link>https://xingyuliuNLP.github.io/projet_encadre/categories/</link>
     </image>
     
   </channel>
