@@ -572,7 +572,7 @@
 
 <p>Nous avons, en outre, utilisé le logiciel minigrep, qui en faisant appel à Perl, a été capable d’afficher sur le navigateur une visualisation plus « user-friendly » des contextes où l’on trouve le mot choisi.</p>
 
-<p>Quant au contenu chinois, puisque nous ne pouvons pas le segmenter avec une expression régulière simple, nous avons eu recours au module JIEBA, spécialisé en segmentation du texte chinois. Concernant cela, vous verrez notre script Python <a href="/presentation/_index_files/seg_jieba.py">ici</a>.</p>
+<p>Quant au contenu chinois, puisque nous ne pouvons pas le segmenter avec une expression régulière simple, nous avons eu recours au module JIEBA, spécialisé en segmentation du texte chinois. Concernant cela, vous verrez notre script Python <a href="/presentation/seg_jieba.py">ici</a>.</p>
 
 <p>Après avoir fini le script bash pour afficher toutes les informations dans le tableau, nous le trouvions hyper lourd et peu lisible. Nous avons ainsi reconstruit notre script en deux fichier : main_script.sh et funcitons.sh, disons &lsquo;refactoring&rsquo; en anglais.</p>
 
@@ -580,7 +580,7 @@
 
 <h2 id="4-analyse-textométrique-itrameur"><code>4. Analyse textométrique iTrameur</code></h2>
 
-<p>Une fois que nous avons obtenu nos dump textes, nous avons les concaténés avec un <a href="/presentation/_index_files/concatenate.sh">script bash</a> en rajoutant les balises <dump>.</p>
+<p>Une fois que nous avons obtenu nos dump textes, nous avons les concaténés avec un <a href="/presentation/concatenate.sh">script bash</a> en rajoutant les balises <dump>.</p>
 
 <p>On s’est plongées ensuite sur iTrameur pour interpréter ces dump textes. iTrameur (version en ligne du logiciel Trameur) constitue un outil d&rsquo;analyse textométrique mis en marche par Serge Fleury. Pour que l&rsquo;iTrameur puisse reconnaître les mots chinois, nous avons segmenté le corpus chinois à l&rsquo;aide de JIEBA et ajouté le délimiteur espace lors de l&rsquo;importation dans l&rsquo;iTrameur.</p>
 
@@ -593,10 +593,10 @@
 <p>Pourtant, pour la raison de police, certains caractères chinois ne peut pas s&rsquo;afficher. Nous avons utilisé des scripts Python pour générer le nuage chinois :</p>
 
 <ul>
-<li><a href="/presentation/_index_files/cleantext.py">cleantext.py</a> pour nettoyer le texte en gardant seulement les caractères chinois</li>
-<li><a href="/presentation/_index_files/chnSegment.py">chnSegment.py</a> pour segmenter les mots</li>
-<li><a href="/presentation/_index_files/plotWordcloud.py">plotWordcloud.py</a> pour générer le nuage de mots</li>
-<li><a href="/presentation/_index_files/main.py">main.py</a> qui appelle tout et nous renvoie le résultat</li>
+<li><a href="/presentation/cleantext.py">cleantext.py</a> pour nettoyer le texte en gardant seulement les caractères chinois</li>
+<li><a href="/presentation/chnSegment.py">chnSegment.py</a> pour segmenter les mots</li>
+<li><a href="/presentation/plotWordcloud.py">plotWordcloud.py</a> pour générer le nuage de mots</li>
+<li><a href="/presentation/main.py">main.py</a> qui appelle tout et nous renvoie le résultat</li>
 </ul>
 
 <p>Les trois derniers scripts font référence à <a href="https://github.com/zhengyangca/wordcloud_jieba_statistics">JIEBA WORDCLOUD</a></p>
