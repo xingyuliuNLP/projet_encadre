@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DataHeart</title>
+    <title>Guerre Commerciale</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>DataHeart</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Xiaoou WANG&amp;2019</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <description>Guerre Commerciale</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>DataHeart</title>
+      <title>Guerre Commerciale</title>
       <link>/</link>
     </image>
     
     <item>
-      <title>1 article</title>
-      <link>/webscraping/1/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>/webscraping/1/</guid>
-      <description>&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
+      <title>Cours 2 - Préambule Unix I</title>
+      <link>/blog/1/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
+      <guid>/blog/1/</guid>
+      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Système de fichiers&lt;/font&gt;&lt;/center&gt;
+&lt;p&gt;Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
+&lt;br&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
 cd .. # remonte au repertoire parent
 cd / # aller a la racine
@@ -30,7 +32,7 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/webscraping
+&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/blog
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
 Library
@@ -53,59 +55,6 @@ Bonjour
 # montrer les metadonnes du contenu
        1       1       8 test.txt
 &lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Syntax&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Header&lt;/td&gt;
-&lt;td&gt;Title&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Paragraph&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;
-Call:
-lm(formula = dist ~ speed, data = cars)
-
-Coefficients:
-(Intercept)        speed  
-    -17.579        3.932  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/webscraping/1_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
-&lt;/div&gt;
 </description>
     </item>
     
@@ -127,7 +76,7 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/frontend
+&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
 Library
@@ -207,103 +156,494 @@ pie(
     </item>
     
     <item>
-      <title>second</title>
-      <link>/webscraping/2/</link>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>/webscraping/2/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;parent = &amp;quot;blog&amp;quot;
-weight = 30
+      <title>Cours 3 - Préambule Unix II</title>
+      <link>/blog/2/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
+      <guid>/blog/2/</guid>
+      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;1. Flux d&#39;entrée &amp; de sortie &amp; d&#39;erreur&lt;/font&gt;&lt;/center&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# flux d’erreur standard &amp;quot;&amp;gt;&amp;gt;&amp;quot; (sortie normal) vs. 2&amp;gt; (canal d’erreur)
+cd ~
+lsd &amp;gt; sortie.txt 2&amp;gt; erreur.txt
+# exercice : transformer tous les n en N d&#39;un fichier et l&#39;enregistrer dans un autre fichier
+tr &amp;quot;n&amp;quot; &amp;quot;N&amp;quot; &amp;lt; test.txt &amp;gt; testN.txt
+cat testN.txt
+# Exercice : majusculiser les données
+tr &amp;quot;[[:lower:]]&amp;quot; &amp;quot;[[:upper:]]&amp;quot; &amp;lt; test.txt
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;table-example&#34;&gt;table example&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pwd # print repertoire actuel
-cd .. # remonte au repertoire parent
-cd / # aller a la racine
-echo &amp;quot;# exemple de l&#39;arborescence de la racine sous Mac&amp;quot;
-ls # exemple de l&#39;arborescence de la racine sous Mac
-cd ~ # aller a home
-echo &amp;quot;# sortie de la commande cat&amp;quot;
-echo &amp;quot;Bonjour&amp;quot; &amp;gt; test.txt
-cat test.txt # visualiser le contenu d&#39;un fichier
-echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
-wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
+&lt;pre&gt;&lt;code&gt;BoNjour
+BONJOUR
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/webscraping
-# exemple de l&#39;arborescence de la racine sous Mac
-Applications
-Library
-System
-Users
-Volumes
-bin
-cores
-dev
-etc
-home
-opt
-private
-sbin
-tmp
-usr
-var
-# sortie de la commande cat
-Bonjour
-# montrer les metadonnes du contenu
-       1       1       8 test.txt
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;2. Redirection du flux d’information&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;
+Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# transformer &amp;quot;é&amp;quot; en &amp;quot;E&amp;quot; puis majusculiser l&#39;output de la première commande
+cd ~
+tr &amp;quot;é&amp;quot; &amp;quot;E&amp;quot; &amp;lt; test.txt | tr &amp;quot;[[:lower:]]&amp;quot; &amp;quot;[[:upper:]]&amp;quot;
+# trier par le premier champ - sort ; filtrage de doublons - uniq
+egrep -o &amp;quot;\w+&amp;quot; test.txt | sort | uniq -c
 &lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Syntax&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Header&lt;/td&gt;
-&lt;td&gt;Title&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Paragraph&lt;/td&gt;
-&lt;td&gt;Text&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;r&#34;&gt;R&lt;/h2&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;summary(cars)
+&lt;pre&gt;&lt;code&gt;BONJOUR
+   1 Bonjour
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;3. Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/font&gt;&lt;/center&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# couper les données en 2 champs par le délimiteur &amp;quot;=&amp;quot;
+cd ~
+echo &amp;quot;la somme de 2+2=4&amp;quot; &amp;gt; test2.txt
+cut -f2 -d&amp;quot;=&amp;quot; test2.txt
+# utiliser read pour capturer la saisie de l&#39;utilisateur et la stocker dans une variable
+echo &amp;quot;nom ?&amp;quot; ;
+# read nom;
+echo &amp;quot;bonjour $nom&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
+&lt;pre&gt;&lt;code&gt;4
+nom ?
+bonjour 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;
-Call:
-lm(formula = dist ~ speed, data = cars)
-
-Coefficients:
-(Intercept)        speed  
-    -17.579        3.932  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/webscraping/2_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure 1: A fancy pie chart.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;nom ?&lt;/p&gt;
+&lt;p&gt;wang&lt;/p&gt;
+&lt;p&gt;bonjour wang&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Cours 4 - Préparation du projet</title>
+      <link>/blog/3/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
+      <guid>/blog/3/</guid>
+      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
+&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Nous avons créé l&#39;arborescence de travail à l&#39;aide du script bash suivant nommé &amp;lsquo;prepare-environnement-projet.sh&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+mkdir PROJET_MOT_SUR_LE_WEB
+cd PROJET_MOT_SUR_LE_WEB
+# on peut desormais creer l&#39;arborescence de travail
+mkdir ./CONTEXTES;
+mkdir ./DUMP_TEXT;
+mkdir ./IMAGES;
+mkdir ./PAGES_ASPIREES;
+mkdir ./PROGRAMMES;
+mkdir ./TABLEAUX;
+mkdir ./URLS;
+# les lignes precedentes peuvent tenir sur une seule ligne
+# a savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
+# le dossier URLS contiendra le fichier initial d&#39;URLs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Il suffit de nous positionner dans le même répertoire que ce script et l&#39;exécuter avec bash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bash prepare-environnement-projet.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;
+_J&#39;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&#39;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&#39;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie_
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
+# on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
+echo &amp;quot;&amp;quot; &amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+# on récupère les 2 arguments que l&#39;on a passé au programme
+# le premier : chemin vers le dossier contenant les fichiers d&#39;URL
+# le second : chemin vers le dossier devant contenir le fichier HTML final
+echo &amp;quot;les urls sont dans : $1&amp;quot;;
+echo &amp;quot;chemin de stockage : $2&amp;quot;;
+# pour tous les fichiers dans le répertoire 1
+for fichier in $1/*
+# on exécute les commandes suivantes
+do
+# compteur destiné à compter les URLs pour chaque fichier d&#39;URL
+compteur=1;
+echo &amp;quot;$fichier&amp;quot;;
+  for ligne in $(cat &amp;quot;$fichier&amp;quot;)
+  do
+  echo &amp;quot;$compteur : $ligne&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+  # on incrémente le compteur des URLs
+  compteur=$((compteur+1))
+  done
+done
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 6 - Détection de l’encodage d’URL</title>
+      <link>/blog/4/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0200</pubDate>
+      <guid>/blog/4/</guid>
+      <description>&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
+&lt;img src=&#34;/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Problèmes rencontrés&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;br&gt;
+&lt;p&gt;Je n’ai pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des informations d’erreurs suivantes :&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200: command not found # ou [405: command not found
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200==200]: command not found
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La première erreur provient de&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [ $coderetour == 200 ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;J&#39;ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
+Tandis que la deuxième est à cause de&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [$coderetour==200]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ce qui n&#39;obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
+J&#39;ai aussi essayé de comprendre la différence entre simples et doubles crochets et j&#39;ai trouvé une réponse raisonnable
+Les conditions à doubles crochets permettent tout ce qu’offrent les conditions à simples crochets et plus, par exemple, elles proposent l’usage du wildcard comme en bash ainsi que des expressions régulières.&lt;/p&gt;
+&lt;p&gt;Voici la dernière version de script accompagné des explications de certaines commandes bash dans les commentaire.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
+# on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
+echo &amp;quot;&amp;quot; &amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+# ou
+# rm -f &amp;quot;$2/tableau.html&amp;quot; ;
+# on récupère les 2 arguments que l&#39;on a passé au programme
+# le premier : chemin vers le dossier contenant les fichiers d&#39;URL
+# le second : chemin vers le dossier devant contenir le fichier HTML final
+echo &amp;quot;les urls sont dans : $1&amp;quot;;
+echo &amp;quot;chemin de stockage : $2&amp;quot;;
+# 1. définir le type &amp;lt;html&amp;gt;
+echo &amp;quot;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=\&amp;quot;UTF-8\&amp;quot;&amp;gt;&amp;lt;title&amp;gt;Tableaux&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+
+# 2. générer un tableau par fichier d&#39;URL
+numeroTable=1;
+# pour tous les fichiers dans le répertoire 1
+# for fichier in $1/*
+for fichier in $(ls $1)
+# on exécute les commandes suivantes
+do
+# compteur destiné à compter les URLs pour chaque fichier d&#39;URL
+compteur=1;
+echo &amp;quot;$1/$fichier&amp;quot;;
+echo &amp;quot;&amp;lt;table border=\&amp;quot;2\&amp;quot; align=\&amp;quot;center\&amp;quot; width=\&amp;quot;80%\&amp;quot;&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+  # lecture ligne à ligne des URLs
+  for ligne in $(cat &amp;quot;$1/$fichier&amp;quot;)
+  do
+  # curl ： un outil de transfert de data de ou vers un serveur
+  # options :
+  # -o output file
+  # -s silent, use -S, --show-error in addition to this option to disable progress meter but still show error messages
+  # -I head, fetch the headers only
+  # -L location, if the server reports that the requested page has moved to a different location, this option will make curl redo the request on the new place.
+  # -w write-out, Make curl display information on stdout after a completed transfer
+  coderetour=$(curl -SIL -o tmp.txt -w %{http_code} $ligne);
+
+  # si coderetour est egale a 200
+
+  if [[ $coderetour == 200 ]]
+    then
+    # normaliser la case, tout est en majuscule, comme UTF-8
+    # supprimer eventuellement la fin de ligne
+    encodage=$(curl -sIL -o toto -w %{content_type} $ligne|cut -f2 -d&amp;quot;=&amp;quot;|tr &#39;[a-z]&#39; &#39;[A-Z]&#39;|tr -d &#39;\n&#39;);
+    # quand on ouvre un fichier, le reprtoire sera le sien
+    # pour relier $numeroTable et $compteur, &#39;-&#39; marche mais pas &#39;_&#39;?????
+    curl -L -o &amp;quot;../PAGES-ASPIREES/$numeroTable-$compteur.html&amp;quot; &amp;quot;$ligne&amp;quot;;
+    if [[ $encodage == &#39;UTF-8&#39; ]]
+      then
+      lynx -dump -nolist -assume-charset=$encodage - display-charset=$encodage &amp;quot;../PAGE_ASPIREES/$numeroTable-$compteur.html&amp;quot; &amp;gt; ../DUMP-TEXT/$numeroTable-$compteur.txt;
+
+      echo &amp;quot;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;$compteur&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;$ligne\&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;$ligne&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Code_http:$coderetour&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Encodage:$encodage&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../PAGE-ASPIREES/$numeroTable-$compteur.html\&amp;quot;&amp;gt;$numeroTable-$compteur.html&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../DUMP-TEXT/$numeroTable-$compteur.txt\&amp;quot;&amp;gt;$numeroTable-$compteur.txt&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+      else
+      # comment savoir si la valeur est connu de iconv
+      # extraction de l&#39;encodage avec egrep dans la page aspiree
+      # lynx dump avec l&#39;encodage trouve
+      # convertir le dump en utf8 avec iconv
+      echo &amp;quot;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;$compteur&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;$ligne\&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;$ligne&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Code_http:$coderetour&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Encodage:$encodage&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../PAGE_ASPIREES/$numeroTable-$compteur.html\&amp;quot;&amp;gt;&amp;quot;$numeroTable-$compteur.html&amp;quot;&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+      fi
+    else
+    echo &amp;quot;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;$compteur&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;$ligne\&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;$ligne&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Code_http:$coderetour&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+    fi
+  compteur=$((compteur+1));
+  done
+echo &amp;quot;&amp;lt;/table&amp;gt;&amp;lt;br /&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+# cat $fichier &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;
+numeroTable=$((numeroTable+1));
+done
+echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 7 - Rajouter 4 colonnes dans la table d&#39;URLs</title>
+      <link>/blog/5/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>/blog/5/</guid>
+      <description>&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&#39;input URL et celui de l&#39;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Les 4 colonnes rajoutées sont :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;le contexte de mot-clé&lt;/li&gt;
+&lt;li&gt;sa fréquence dans chaque fichier dump&lt;/li&gt;
+&lt;li&gt;l&#39;index des mots présents dans chaque fichier dump&lt;/li&gt;
+&lt;li&gt;les bigrammes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Minigrep ou egrep&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep&lt;/font&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# ----06/11
+# METHODE 1 : trouver la ligne avant et la ligne après de la ligne contenant notre mot-clé avec egrep
+# egrep -i -C 2 $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; &amp;gt; &#39;../CONTEXTES/$numerotableau-$compteur.txt&#39;;
+# METHODE 2 : en utilisant minigrep
+# mettre les motifs dans le fichier parametre-motif.txt
+minigrep/minigrepmultilingue.pl &amp;quot;UTF-8&amp;quot; &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; minigrep/parametre-motif.txt;
+# renommer le fichier obtenu
+mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Afin d&#39;obtenir des bigrammes, nous avons concaténé tous les mots d&#39;un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s&#39;applique pas au chinois à cause du fait que le chinois n&#39;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. &lt;/font&gt;&lt;/font&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# \w+ ne marche que dans UTF-8
+# INDEX DES MOTS
+egrep -o &#39;\w+&#39; &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; | sort | uniq -c|sort -gr &amp;gt; &#39;../DUMP-TEXT/index-$numerotableau-$compteur.txt&#39;;
+## BIGRAMS
+egrep -o &#39;\w+&#39; &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39; &amp;gt;fic1;
+tail -n +2 fich1 &amp;gt;fic2;
+paste fic1 fic2 | sort | uniq -c | sort -gr &amp;gt; &#39;../DUMP-TEXT/bigrams-$numerotableau-$compteur.txt&#39;
+## COMPTER LE MOTIF
+frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Stanford Chinese Segmenter&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&#39;usage de cet outil, tout est clair sur son site (https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml] &lt;/font&gt;&lt;/font&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 8 - Résolution du problème d&#39;encodage</title>
+      <link>/blog/6/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>/blog/6/</guid>
+      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Lors de la détection de l&#39;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&#39;était pas un type d&#39;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/font&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;img src=&#34;/blog/_index_files/encodage.png&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 9 - méthode 2 de de la segmentation du chinois</title>
+      <link>/blog/7/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>/blog/7/</guid>
+      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. &lt;/font&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/python
+# _*_ coding: utf-8 _*_
+
+# segment chinese text
+# modules
+import re
+import sys
+import jieba
+
+# functions
+def tokenize(file):
+    # input file
+    with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f:
+        content = f.read()
+        # clean text and keep only chinese characters
+        pattern=re.compile(u&#39;[^\u4E00-\u9FA5]&#39;)
+        texte=pattern.sub(r&#39;&#39;, content)
+        wordlist_temp=list(jieba.cut(texte, cut_all=False))
+        wordlist=[i.rstrip() for i in wordlist_temp if len(i)&amp;gt;=1]
+    return wordlist
+
+def token_file(file):
+    wordlist=tokenize(sys.argv[1])
+    # output file
+    with open(file, &#39;w&#39;, encoding=&#39;utf-8&#39;) as f:
+        f.write(&#39; &#39;.join(wordlist))
+
+if __name__ == &amp;quot;__main__&amp;quot;:
+    token_file(sys.argv[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.&lt;/font&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&#39;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&#39;affiche en haut tandis que celui de Stanford se trouve en bas. &lt;/font&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src=&#34;/blog/_index_files/screenshot_515.jpg&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 10 - Reconstruction du code (Refactoring)</title>
+      <link>/blog/8/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>/blog/8/</guid>
+      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&#39;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. &lt;/font&gt;&lt;/font&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+# importer les fonctions
+. /Users/becca/Documents/nlp/coursS1/projetEncadre/PROJET-MOT-SUR-LE-WEB/PROGRAMMES/functions.sh
+#--------------------Main part-----------------#
+# on commence par supprimer l&#39;éventuel fichier de résultat que l&#39;on doit reconstruire
+rm -f &amp;quot;$2/tableau2.html&amp;quot; ;
+# on récupère les 2 arguments que l&#39;on a passé au programme
+# le premier : chemin vers le dossier contenant les fichiers d&#39;URL
+# le second : chemin vers le dossier devant contenir le fichier HTML final
+echo &amp;quot;Les urls SONT DANS  : $1&amp;quot; ;
+echo &amp;quot;On créé le tableau HTML dans : $2&amp;quot; ;
+# output=$($2/tableau2.html)
+ecrireMetaData $2/tableau2.html
+# Création d&#39;une variable pour compter les fichiers traités et donc le nb de tableau généré
+numerotableau=1;
+# Création d&#39;une variable pour stocker notre terme ciblé
+motif=$3;
+
+# Parcours du dossier contenant les fichiers URLs
+for fichier in $(ls $1)
+do
+compteur=1; # compteur destiné à compter les URLs pour chaque fichier d&#39;URL
+echo &amp;quot;$1/$fichier&amp;quot; ;
+#-----------------------------------------------------------
+# Création du tableau associé au fichier en cours de traitement
+#-----------------------------------------------------------
+ecrireTitre $2/tableau2.html
+# &amp;quot;parcours&amp;quot; d&#39;un fichier d&#39;URL : lecture ligne à ligne des URLs
+for ligne in $(cat &amp;quot;$1/$fichier&amp;quot;)
+  do
+  codeRetour=$(detHttpCode $ligne);
+  if [[ $codeRetour == 200 ]]
+    then
+    encodage=$(detEncodage1 $ligne);
+    curl -L -o &amp;quot;../PAGES-ASPIREES/$numerotableau-$compteur.html&amp;quot; &amp;quot;$ligne&amp;quot;;
+    echo &amp;quot;ENCODAGE DETECTE PAR CURL : $encodage&amp;quot;;
+    if [[ $encodage == &amp;quot;UTF-8&amp;quot; ]]
+      then
+      procUtf8 $2/tableau2.html
+    else # http_code=200, l&#39;encodage n&#39;est pas utf-8
+      encodage=$(detEncodage2 $ligne)
+      if [[ $encodage == &amp;quot;UTF-8&amp;quot; ]]
+        then
+        procUtf8 $2/tableau2.html
+      else
+        code=$(iconv -l|egrep -i $encodage)
+        if [[ $code=true ]]
+          then
+          iconv -f $encodage -t &#39;utf-8&#39; ../DUMP-TEXT/$numerotableau-$compteur.txt &amp;gt; ../DUMP-TEXT/$numerotableau-$compteur-converti.txt
+        else
+          procVide $2/tableau2.html
+        fi
+      fi
+    fi
+  else
+    procVide $2/tableau2.html
+  fi
+  compteur=$((compteur+1)) ;
+done
+echo &amp;quot;&amp;lt;/table&amp;gt;&amp;lt;br /&amp;gt;&amp;quot; &amp;gt;&amp;gt; $2/tableau2.html ;
+# on incrémente le compteur de tableaux
+numerotableau=$((numerotableau+1));
+done
+echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp;gt; $2/tableau2.html ;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## functions
+# 1 html head
+ecrireMetaData(){
+  echo &amp;quot;&amp;lt;!DOCTYPE html&amp;gt;&amp;quot; &amp;gt; $1
+  echo &amp;quot;&amp;lt;html lang=\&amp;quot;en\&amp;quot;&amp;gt;&amp;quot; &amp;gt;&amp;gt; $1
+  echo &amp;quot;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;title&amp;gt;Projet Encadre&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;quot; &amp;gt;&amp;gt; $1
+  echo &amp;quot;&amp;lt;body&amp;gt;&amp;quot; &amp;gt;&amp;gt; $1
+ }
+# 2 table title
+ecrireTitre(){
+  echo &amp;quot;&amp;lt;table border=\&amp;quot;2\&amp;quot; align=\&amp;quot;center\&amp;quot; width=\&amp;quot;80%\&amp;quot;&amp;gt;&amp;quot; &amp;gt;&amp;gt; $1
+  echo &amp;quot;&amp;lt;tr bgcolor=\&amp;quot;grey\&amp;quot;&amp;gt;&amp;lt;td&amp;gt;N°&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;URL&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Code http&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;encodage&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Page aspirée&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Dump&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Filtrage Txt&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Filtrage Html&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Index&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Bitexte&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Fq Motif&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; $1
+}
+# 3 get http_code
+detHttpCode(){
+  curl -SIL -o toto -w &amp;quot;%{http_code}&amp;quot; $1
+}
+# 4 two ways to get encoding
+detEncodage1(){
+  curl -sIL -o toto  -w %{content_type} $1 | cut -f2 -d&amp;quot;=&amp;quot; | tr &#39;[a-z]&#39; &#39;[A-Z]&#39; | tr -d &#39;\r&#39;
+}
+detEncodage2(){
+  egrep -oi &#39;charset=&amp;quot;?[^&amp;quot;,]+&amp;quot;?&#39; $1 | cut -f2 -d&amp;quot;=&amp;quot; | tr &#39;[a-z]&#39; &#39;[A-Z]&#39; | tr -d &#39;\r&#39;| head -1
+}
+
+# 5 process text when encoding is utf-8
+procUtf8(){
+  # 1. On lynx la page aspirée
+	lynx -dump -nolist -assume_charset=$encodage -display_charset=$encodage &amp;quot;../PAGES-ASPIREES/$numerotableau-$compteur.html&amp;quot; &amp;gt; ../DUMP-TEXT/$numerotableau-$compteur.txt;
+	#-----------------------------------------------------------
+	# 2. On cree le fichier contexte TXT via egrep
+  egrep -i -C2 &amp;quot;$motif&amp;quot; ../DUMP-TEXT/$numerotableau-$compteur.txt &amp;gt; ../CONTEXTE/$numerotableau-$compteur.txt;
+  #-----------------------------------------------------------
+	# 3. Fq motif
+	nbmotif=$(egrep -coi &amp;quot;$motif&amp;quot; ../DUMP-TEXT/$numerotableau-$compteur.txt;);
+	#-----------------------------------------------------------
+	# 4. contexte html
+	../minigrep/minigrepmultilingue.pl &amp;quot;utf-8&amp;quot; ../DUMP-TEXT/$numerotableau-$compteur.txt ../minigrep/motif-regexp.txt ;
+  mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html ;
+	#-----------------------------------------------------------
+	# 5. index hierarchique
+	egrep -o &amp;quot;\w+&amp;quot; ../DUMP-TEXT/$numerotableau-$compteur.txt | sort | uniq -c | sort -r &amp;gt; ../DUMP-TEXT/index-$numerotableau-$compteur.txt ;
+	#-----------------------------------------------------------
+	# 6. bigramme
+	egrep -o &amp;quot;\w+&amp;quot; ../DUMP-TEXT/$numerotableau-$compteur.txt &amp;gt; bi1.txt;
+	tail -n +2 bi1.txt &amp;gt; bi2.txt ;
+	paste bi1.txt bi2.txt &amp;gt; bi3.txt ;
+	cat bi3.txt | sort | uniq -c | sort -r &amp;gt;  ../DUMP-TEXT/bigramme-$numerotableau-$compteur.txt ;
+	#-----------------------------------------------------------
+	# 7. on écrit les résultats dans le tableau avec tous les résultats produits
+  echo &amp;quot;&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;$compteur&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;$ligne\&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;$ligne&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;Code_http:$codeRetour&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;Encodage:$encodage&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../PAGES-ASPIREES/$numerotableau-$compteur.html\&amp;quot;&amp;gt;$numerotableau-$compteur.html&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../DUMP-TEXT/$numerotableau-$compteur.txt\&amp;quot;&amp;gt;$numerotableau-$compteur.txt&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../CONTEXTES/$numerotableau-$compteur.txt\&amp;quot;&amp;gt;$numerotableau-$compteur.txt&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../CONTEXTES/$numerotableau-$compteur.html\&amp;quot;&amp;gt;$numerotableau-$compteur.html&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../DUMP-TEXT/index-$numerotableau-$compteur.txt\&amp;quot;&amp;gt;index-$numerotableau-$compteur&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../DUMP-TEXT/bigramme-$numerotableau-$compteur.txt\&amp;quot;&amp;gt;bigramme-$numerotableau-$compteur&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;$nbmotif&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$1&amp;quot;
+}
+# 6 write &amp;quot;-&amp;quot; in table
+procVide(){
+  echo &amp;quot;&amp;lt;tr&amp;gt;
+  &amp;lt;td&amp;gt;$compteur&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;$ligne\&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;$ligne&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;Code_http:$codeRetour&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;Encodage:$encodage&amp;lt;/td&amp;gt;
+  &amp;lt;td&amp;gt;&amp;lt;a href=\&amp;quot;../PAGES-ASPIREES/$numerotableau-$compteur.html\&amp;quot;&amp;gt;$numerotableau-$compteur.html&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;quot; &amp;gt;&amp;gt; &amp;quot;$1&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cours 11 - Analyse du corpus sur iTrameur</title>
+      <link>/blog/9/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>/blog/9/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -338,14 +678,6 @@ pie(
     </item>
     
     <item>
-      <title>Experience</title>
-      <link>/backup/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Accomplish&amp;shy;ments</title>
       <link>/backup/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -374,14 +706,6 @@ pie(
       <link>/backup/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/backup/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured Publications</title>
-      <link>/backup/featured/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/featured/</guid>
       <description></description>
     </item>
     
@@ -419,6 +743,14 @@ pie(
     </item>
     
     <item>
+      <title>Nous nous sommes penchés sur la représentation de la guerre commerciale sur la toile des pays anglophones, de la Chine, et de la France.</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>1 article</title>
       <link>/frontend/1/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0100</pubDate>
@@ -436,7 +768,7 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/frontend
+&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
 Library
@@ -729,20 +1061,6 @@ A Markdown aside is useful for displaying notices, hints, or definitions to your
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1056,25 +1374,6 @@ Three
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -1082,7 +1381,7 @@ Three
       <description>
 
 
-&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;p&gt;&lt;h2&gt;Table des matières&lt;/h2&gt;
 HAHAHUGOSHORTCODE-TOC0-HBHB
 &lt;/p&gt;
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
@@ -1124,25 +1423,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&#39;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

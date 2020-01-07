@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/webscraping/1/</loc>
-    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
+    <loc>/blog/1/</loc>
+    <lastmod>2019-10-02T00:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -13,8 +13,43 @@
   </url>
   
   <url>
-    <loc>/webscraping/2/</loc>
-    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
+    <loc>/blog/2/</loc>
+    <lastmod>2019-10-02T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/3/</loc>
+    <lastmod>2019-10-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/4/</loc>
+    <lastmod>2019-10-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/5/</loc>
+    <lastmod>2019-11-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/6/</loc>
+    <lastmod>2019-11-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/7/</loc>
+    <lastmod>2019-11-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/8/</loc>
+    <lastmod>2019-11-06T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/9/</loc>
+    <lastmod>2019-11-06T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -23,10 +58,6 @@
   
   <url>
     <loc>/backup/demo/</loc>
-  </url>
-  
-  <url>
-    <loc>/backup/experience/</loc>
   </url>
   
   <url>
@@ -46,20 +77,16 @@
   </url>
   
   <url>
-    <loc>/backup/featured/</loc>
-  </url>
-  
-  <url>
     <loc>/backup/publications/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
@@ -69,17 +96,72 @@
   </url>
   
   <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/conference-paper/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xiaoou-wang/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/xingyu-liu/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/itrameur/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/scripts/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/nuage/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tableaux/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/presentation/</loc>
+    <lastmod>2019-12-30T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/frontend/1/</loc>
     <lastmod>2019-12-21T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/frontend/</loc>
-    <lastmod>2019-12-21T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/webscraping/</loc>
     <lastmod>2019-12-21T00:00:00+01:00</lastmod>
   </url>
   
@@ -94,33 +176,8 @@
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/admin/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -136,6 +193,11 @@
   <url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2019-01-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -179,26 +241,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
@@ -209,26 +251,15 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/xiaoou/</loc>
   </url>
   
   <url>
     <loc>/backup/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

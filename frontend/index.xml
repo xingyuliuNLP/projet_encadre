@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview | DataHeart</title>
+    <title>Overview | Guerre Commerciale</title>
     <link>/frontend/</link>
       <atom:link href="/frontend/index.xml" rel="self" type="application/rss+xml" />
     <description>Overview</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Xiaoou WANG&amp;2019</copyright><lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Overview</title>
@@ -30,7 +30,7 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/frontend
+&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
 Library
@@ -127,7 +127,7 @@ cat test.txt # visualiser le contenu d&#39;un fichier
 echo &amp;quot;# montrer les metadonnes du contenu&amp;quot;
 wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/academic/content/frontend
+&lt;pre&gt;&lt;code&gt;/Users/rosingle/Documents/siteProjetEncadre/content/frontend
 # exemple de l&#39;arborescence de la racine sous Mac
 Applications
 Library

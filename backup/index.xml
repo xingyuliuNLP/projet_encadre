@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Backups | DataHeart</title>
+    <title>Backups | Guerre Commerciale</title>
     <link>/backup/</link>
       <atom:link href="/backup/index.xml" rel="self" type="application/rss+xml" />
     <description>Backups</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Xiaoou WANG&amp;2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>Backups</title>
@@ -44,14 +44,6 @@
     </item>
     
     <item>
-      <title>Experience</title>
-      <link>/backup/experience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Accomplish&amp;shy;ments</title>
       <link>/backup/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -80,14 +72,6 @@
       <link>/backup/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/backup/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured Publications</title>
-      <link>/backup/featured/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/backup/featured/</guid>
       <description></description>
     </item>
     

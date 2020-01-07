@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | DataHeart</title>
+    <title>Authors | Guerre Commerciale</title>
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Xiaoou WANG&amp;2019</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <title>Xiaoou WANG</title>
+      <link>/authors/xiaoou-wang/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/xiaoou-wang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robert Ford</title>
-      <link>/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/robert-ford/</guid>
+      <title>Xingyu LIU</title>
+      <link>/authors/xingyu-liu/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/xingyu-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
       <description></description>
     </item>
     
@@ -33,7 +41,28 @@
       <link>/authors/xiaoou/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/xiaoou/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;code&gt;Thème&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sur fond de tension entre &lt;strong&gt;la Chine et les Etats-Unis&lt;/strong&gt;, nous nous sommes penchés sur la &lt;em&gt;représentation de la guerre commerciale&lt;/em&gt; sur la toile des &lt;strong&gt;pays anglophones, de la Chine, et de la France&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Motivation&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;La guerre commerciale est susceptible de causer une récession générale. Les Etats-Unis semblent considérer que la montée de la Chine menace déjà son hégémonie, alors que la Chine, aspirant à des progrès économiques toujours plus importants, prennent la défense de ses propres intérêts.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Exclusivités&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Syntaxe highlighting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tous les codes sont colorés pour faciliter la lecture, que cela soit Python, Javascript, Perl ou Shell (bash).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recherche productible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nos codes sont écrits dans des fichiers .Rmd. Il suffit de les ouvrir dans Rstudio pour les exécuter et voir ainsi les résultats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&#39;historique de notre projet est intégralement conservée et documentée grâce à Git, logiciel de gestion de versions décentralisé.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive Design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notre site s&#39;adapte automatiquement à différentes tailles d&#39;écran.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

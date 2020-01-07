@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyse textométrique avec itrameur | Guerre Commerciale</title>
+    <link>/itrameur/</link>
+      <atom:link href="/itrameur/index.xml" rel="self" type="application/rss+xml" />
+    <description>Analyse textométrique avec itrameur</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr</language><copyright>Xiaoou WANG,Xingyu LIU&amp;2019</copyright><lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Analyse textométrique avec itrameur</title>
+      <link>/itrameur/</link>
+    </image>
+    
+  </channel>
+</rss>
