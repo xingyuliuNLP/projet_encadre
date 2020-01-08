@@ -217,7 +217,7 @@ done
 
 &lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
 
-&lt;h2 id=&#34;pour-conclure-ce-que-nous-avons-fait-les-trois-dernières-séances&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion-des-trois-dernières-séances&#34;&gt;Conclusion des trois dernières séances :&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;&lt;/li&gt;
