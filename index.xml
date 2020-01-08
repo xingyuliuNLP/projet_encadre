@@ -393,11 +393,9 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
       <link>/projet_encadre/blog/6/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/projet_encadre/blog/6/</guid>
-      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&amp;rsquo;était pas un type d&amp;rsquo;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/font&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&amp;rsquo;était pas un type d&amp;rsquo;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/p&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/projet_encadre/blog/encodage.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/encodage.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
