@@ -29,7 +29,7 @@
     
   
   <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Arguments Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.">
+Arguments Désormais, au moment du lancement de notre programme, 3 arguments sont requis. Le premier et le deuxième sont le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Le troisième est nos mots ciblés dans notre projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo;. Ce troisième argument sert à compter sa fréquence dans le texte.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/5/">
@@ -225,7 +225,7 @@ Arguments Désormais, au moment de lancement de notre programme, nous devons met
   <meta property="og:url" content="/projet_encadre/blog/5/">
   <meta property="og:title" content="Cours 7 - Rajouter 4 colonnes dans la table d&#39;URLs | Guerre Commerciale">
   <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Arguments Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+Arguments Désormais, au moment du lancement de notre programme, 3 arguments sont requis. Le premier et le deuxième sont le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Le troisième est nos mots ciblés dans notre projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo;. Ce troisième argument sert à compter sa fréquence dans le texte."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -638,7 +638,7 @@ Arguments Désormais, au moment de lancement de notre programme, nous devons met
 <li><a href="#arguments">Arguments</a></li>
 <li><a href="#colonnes-rajoutées">Colonnes rajoutées</a></li>
 <li><a href="#minigrep-ou-egrep">Minigrep ou egrep</a></li>
-<li><a href="#stanford-chinese-segmenter">Stanford Chinese Segmenter</a></li>
+<li><a href="#solution-pour-la-segmentation-du-corpus-chinois">Solution pour la segmentation du corpus chinois</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -661,7 +661,7 @@ Arguments Désormais, au moment de lancement de notre programme, nous devons met
 
 <h2 id="arguments">Arguments</h2>
 
-<p>Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.</p>
+<p>Désormais, au moment du lancement de notre programme, 3 arguments sont requis. Le premier et le deuxième sont le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Le troisième est nos mots ciblés dans notre projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo;. Ce troisième argument sert à compter sa fréquence dans le texte.</p>
 
 <h2 id="colonnes-rajoutées">Colonnes rajoutées</h2>
 
@@ -688,8 +688,7 @@ minigrep/minigrepmultilingue.pl &quot;UTF-8&quot; '../DUMP-TEXT/$numerotableau-$
 mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html
 </code></pre>
 
-<p><font size="4"><font size="4">Afin d&rsquo;obtenir des bigrammes, nous avons concaténé tous les mots d&rsquo;un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s&rsquo;applique pas au chinois à cause du fait que le chinois n&rsquo;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. </font></font>
-<br></p>
+<p>Afin d&rsquo;obtenir des bigrammes, nous avons concaténé tous les mots d&rsquo;un fichier avec tous les mots du même fichier excepté le premier en utilisant paste. Cependant, cette manière de récupérer des mots ne s&rsquo;applique pas au chinois à cause du fait que le chinois n&rsquo;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois.</p>
 
 <pre><code class="language-bash"># \w+ ne marche que dans UTF-8
 # INDEX DES MOTS
@@ -702,9 +701,9 @@ paste fic1 fic2 | sort | uniq -c | sort -gr &gt; '../DUMP-TEXT/bigrams-$numerota
 frqMotif=$(egrep -oc $motif '../DUMP-TEXT/$numerotableau-$compteur.txt');
 </code></pre>
 
-<h2 id="stanford-chinese-segmenter">Stanford Chinese Segmenter</h2>
+<h2 id="solution-pour-la-segmentation-du-corpus-chinois">Solution pour la segmentation du corpus chinois</h2>
 
-<p>Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&rsquo;usage de cet outil, tout est clair sur son site (<a href="https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml">https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml</a>]</p>
+<p>Grâce aux blogs de nos anciens camarades, nous avons pris connaissance d&rsquo;un outil de segmentation du chinois appelé Stanford Chinese Segmenter. <a href="https://nlp.stanford.edu/software/segmenter.shtml">Le site officiel</a> offre des explications très détaillées sur l&rsquo;usage de cet outil.</p>
 
 <pre><code class="language-bash">sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
 </code></pre>

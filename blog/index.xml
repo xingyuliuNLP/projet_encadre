@@ -117,7 +117,7 @@ egrep -o &amp;quot;\w+&amp;quot; test.txt | sort | uniq -c
    1 Bonjour
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;sectionner-les-données-par-champ-un-champ-est-defini-par-un-symbole-qui-delimite-ce-champ-particulier&#34;&gt;Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/h2&gt;
+&lt;h2 id=&#34;sectionner-les-données-par-champ&#34;&gt;Sectionner les données par champ&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# couper les données en 2 champs par le délimiteur &amp;quot;=&amp;quot;
 cd ~
@@ -133,12 +133,6 @@ echo &amp;quot;bonjour $nom&amp;quot;
 nom ?
 bonjour 
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;nom ?&lt;/p&gt;
-
-&lt;p&gt;wang&lt;/p&gt;
-
-&lt;p&gt;bonjour wang&lt;/p&gt;
 </description>
     </item>
     
@@ -154,12 +148,12 @@ bonjour
 &lt;h2 id=&#34;configuration-du-terrain&#34;&gt;Configuration du terrain&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Nous avons créé l&amp;rsquo;arborescence de travail à l&amp;rsquo;aide du script bash suivant nommé &amp;lsquo;prepare-environnement-projet.sh&amp;rsquo;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Nous avons créé l&amp;rsquo;arborescence de travail à l&amp;rsquo;aide du script bash suivant nommé &lt;code&gt;prepare-environnement-projet.sh&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
 mkdir PROJET_MOT_SUR_LE_WEB
 cd PROJET_MOT_SUR_LE_WEB
-# on peut desormais creer l&#39;arborescence de travail
+# on peut désormais créer l&#39;arborescence de travail
 mkdir ./CONTEXTES;
 mkdir ./DUMP_TEXT;
 mkdir ./IMAGES;
@@ -167,8 +161,8 @@ mkdir ./PAGES_ASPIREES;
 mkdir ./PROGRAMMES;
 mkdir ./TABLEAUX;
 mkdir ./URLS;
-# les lignes precedentes peuvent tenir sur une seule ligne
-# a savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
+# les lignes précédentes peuvent tenir sur une seule ligne
+# à savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
 # le dossier URLS contiendra le fichier initial d&#39;URLs
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
@@ -178,9 +172,9 @@ mkdir ./URLS;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/h2&gt;
+&lt;h2 id=&#34;lecture-des-fichiers-url-et-écriture-de-leurs-contenus-dans-un-nouveau-fichier&#34;&gt;Lecture des fichiers URL et écriture de leurs contenus dans un nouveau fichier&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;J&amp;rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&amp;rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&amp;rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;J&amp;rsquo;ai une remarque sur la manière de récupérer tous les fichiers dans un répertoire. J&amp;rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&amp;rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie&lt;/em&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
 # on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
@@ -217,21 +211,21 @@ done
 
 &lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion-des-trois-dernières-séances&#34;&gt;Conclusion des trois dernières séances :&lt;/h2&gt;
+&lt;h2 id=&#34;récapitulatif-des-trois-dernières-séances&#34;&gt;Récapitulatif des trois dernières séances&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs à l’aide de deux boucles for, dont l&amp;rsquo;une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue et la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollar “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu correspondant.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ayant pour but d&amp;rsquo;aspirer le contenu de page web et d&amp;rsquo;en faire des analyses textuelles, nous avons utilisé les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour enregistrer les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ce processus n&amp;rsquo;est pas automatique à cause des problèmes d’URLs ou de l’encodage. Pour pallier ces problèmes, nous avons détecté si le code de réponse est 200 qui veut dire requête réussie et si l’encodage est UTF-8. Les traitements ultérieurs dépendent des résultats de ces vérifications. Ces deux informations ont également été rajoutées dans nos tables.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/table.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;problèmes-rencontrés&#34;&gt;Problèmes rencontrés&lt;/h2&gt;
 
-&lt;p&gt;Je n’ai pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des informations d’erreurs suivantes :&lt;/p&gt;
+&lt;p&gt;Nous n’avons pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des erreurs suivantes :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200: command not found # ou [405: command not found
 &lt;/code&gt;&lt;/pre&gt;
@@ -239,29 +233,32 @@ done
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;[200==200]: command not found
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;La première erreur provient de&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La première erreur&lt;/strong&gt; provient de&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [ $coderetour == 200 ]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;J&amp;rsquo;ai utilisé simples crochets et mis des espaces ente $coderetour et 200.
-Tandis que la deuxième est à cause de&lt;/p&gt;
+&lt;p&gt;Nous avons utilisé les crochets simples et mis des espaces ente $coderetour et 200.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;La deuxième erreur&lt;/strong&gt; est à cause de&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;if [$coderetour==200]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;ce qui n&amp;rsquo;obéit pas à la syntaxe du bash que la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.
-J&amp;rsquo;ai aussi essayé de comprendre la différence entre simples et doubles crochets et j&amp;rsquo;ai trouvé une réponse raisonnable
-Les conditions à doubles crochets permettent tout ce qu’offrent les conditions à simples crochets et plus, par exemple, elles proposent l’usage du wildcard comme en bash ainsi que des expressions régulières.&lt;/p&gt;
+&lt;p&gt;ce qui n&amp;rsquo;obéit pas à la syntaxe du bash dans laquelle la condition est toujours entourée d’un espace après le crochet d’ouverture et avant le crochet de fermeture.&lt;/p&gt;
 
-&lt;p&gt;Voici la dernière version de script accompagné des explications de certaines commandes bash dans les commentaire.&lt;/p&gt;
+&lt;p&gt;Nous avons aussi essayé de comprendre la différence entre les crochets simples et doubles.&lt;/p&gt;
+
+&lt;p&gt;Les conditions à crochets doubles permettent tout ce qu’offrent les conditions à crochets simples. En outre, elles acceptent l’usage du wildcard comme en bash ainsi que des expressions régulières.&lt;/p&gt;
+
+&lt;p&gt;Voici la dernière version de script accompagnée des explications de certaines commandes bash dans les commentaires.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
 # on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
 echo &amp;quot;&amp;quot; &amp;gt; &amp;quot;$2/tableau.html&amp;quot;;
 # ou
 # rm -f &amp;quot;$2/tableau.html&amp;quot; ;
-# on récupère les 2 arguments que l&#39;on a passé au programme
+# on récupère les 2 arguments que l&#39;on a passés au programme
 # le premier : chemin vers le dossier contenant les fichiers d&#39;URL
 # le second : chemin vers le dossier devant contenir le fichier HTML final
 echo &amp;quot;les urls sont dans : $1&amp;quot;;
@@ -292,7 +289,7 @@ echo &amp;quot;&amp;lt;table border=\&amp;quot;2\&amp;quot; align=\&amp;quot;cen
   # -w write-out, Make curl display information on stdout after a completed transfer
   coderetour=$(curl -SIL -o tmp.txt -w %{http_code} $ligne);
 
-  # si coderetour est egale a 200
+  # si coderetour égal à 200
 
   if [[ $coderetour == 200 ]]
     then
@@ -339,7 +336,7 @@ echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp
 
 &lt;h2 id=&#34;arguments&#34;&gt;Arguments&lt;/h2&gt;
 
-&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
+&lt;p&gt;Désormais, au moment du lancement de notre programme, 3 arguments sont requis. Le premier et le deuxième sont le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Le troisième est nos mots ciblés dans notre projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo;. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
 
 &lt;h2 id=&#34;colonnes-rajoutées&#34;&gt;Colonnes rajoutées&lt;/h2&gt;
 
@@ -366,8 +363,7 @@ minigrep/minigrepmultilingue.pl &amp;quot;UTF-8&amp;quot; &#39;../DUMP-TEXT/$num
 mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Afin d&amp;rsquo;obtenir des bigrammes, nous avons concaténé tous les mots d&amp;rsquo;un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s&amp;rsquo;applique pas au chinois à cause du fait que le chinois n&amp;rsquo;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. &lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Afin d&amp;rsquo;obtenir des bigrammes, nous avons concaténé tous les mots d&amp;rsquo;un fichier avec tous les mots du même fichier excepté le premier en utilisant paste. Cependant, cette manière de récupérer des mots ne s&amp;rsquo;applique pas au chinois à cause du fait que le chinois n&amp;rsquo;utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# \w+ ne marche que dans UTF-8
 # INDEX DES MOTS
@@ -380,9 +376,9 @@ paste fic1 fic2 | sort | uniq -c | sort -gr &amp;gt; &#39;../DUMP-TEXT/bigrams-$
 frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;stanford-chinese-segmenter&#34;&gt;Stanford Chinese Segmenter&lt;/h2&gt;
+&lt;h2 id=&#34;solution-pour-la-segmentation-du-corpus-chinois&#34;&gt;Solution pour la segmentation du corpus chinois&lt;/h2&gt;
 
-&lt;p&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&amp;rsquo;usage de cet outil, tout est clair sur son site (&lt;a href=&#34;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&#34;&gt;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Grâce aux blogs de nos anciens camarades, nous avons pris connaissance d&amp;rsquo;un outil de segmentation du chinois appelé Stanford Chinese Segmenter. &lt;a href=&#34;https://nlp.stanford.edu/software/segmenter.shtml&#34;&gt;Le site officiel&lt;/a&gt; offre des explications très détaillées sur l&amp;rsquo;usage de cet outil.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
 &lt;/code&gt;&lt;/pre&gt;
@@ -394,7 +390,7 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
       <link>/projet_encadre/blog/6/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/projet_encadre/blog/6/</guid>
-      <description>&lt;p&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n&amp;rsquo;était pas un type d&amp;rsquo;encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/p&gt;
+      <description>&lt;p&gt;Lors de la détection de l&amp;rsquo;encodage, pour quelques pages chinois, nous avons eu TEXT/HTML comme retour qui n&amp;rsquo;indique aucun encodage et par conséquent rend difficile la conversion en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/encodage.png&#34;&gt;&lt;/p&gt;
 </description>
@@ -411,7 +407,7 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
 
 &lt;h2 id=&#34;segmentation-du-corpus-chinois&#34;&gt;Segmentation du corpus chinois&lt;/h2&gt;
 
-&lt;p&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.&lt;/p&gt;
+&lt;p&gt;Pour la segmentation du corpus chinois, nous avions précédemment utilisé le stanford-segmenter. Pour comparer sa performance avec un module Python Jieba spécialisé dans la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/python
 # _*_ coding: utf-8 _*_
@@ -464,7 +460,7 @@ if __name__ == &amp;quot;__main__&amp;quot;:
 
 &lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
 
-&lt;p&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret.&lt;/p&gt;
+&lt;p&gt;Pour que notre script final soit plus lisible et clair, nous avons essayé de remanier notre code en mettant des blocs de code répétitifs dans une fonction. Grâce aux exemples fournis dans &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;le blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret.&lt;/p&gt;
 
 &lt;h2 id=&#34;script-principal&#34;&gt;Script principal&lt;/h2&gt;
 

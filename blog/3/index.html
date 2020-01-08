@@ -29,8 +29,8 @@
     
   
   <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé &lsquo;prepare-environnement-projet.sh&rsquo;
-#!/bin/bash mkdir PROJET_MOT_SUR_LE_WEB cd PROJET_MOT_SUR_LE_WEB # on peut desormais creer l&#39;arborescence de travail mkdir ./CONTEXTES; mkdir ./DUMP_TEXT; mkdir ./IMAGES; mkdir ./PAGES_ASPIREES; mkdir ./PROGRAMMES; mkdir ./TABLEAUX; mkdir ./URLS; # les lignes precedentes peuvent tenir sur une seule ligne # a savoir mkdir .">
+Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé prepare-environnement-projet.sh
+#!/bin/bash mkdir PROJET_MOT_SUR_LE_WEB cd PROJET_MOT_SUR_LE_WEB # on peut désormais créer l&#39;arborescence de travail mkdir ./CONTEXTES; mkdir ./DUMP_TEXT; mkdir ./IMAGES; mkdir ./PAGES_ASPIREES; mkdir ./PROGRAMMES; mkdir ./TABLEAUX; mkdir ./URLS; # les lignes précédentes peuvent tenir sur une seule ligne # à savoir mkdir .">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/3/">
@@ -226,8 +226,8 @@ Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l
   <meta property="og:url" content="/projet_encadre/blog/3/">
   <meta property="og:title" content="Cours 4 - Préparation du projet | Guerre Commerciale">
   <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé &lsquo;prepare-environnement-projet.sh&rsquo;
-#!/bin/bash mkdir PROJET_MOT_SUR_LE_WEB cd PROJET_MOT_SUR_LE_WEB # on peut desormais creer l&#39;arborescence de travail mkdir ./CONTEXTES; mkdir ./DUMP_TEXT; mkdir ./IMAGES; mkdir ./PAGES_ASPIREES; mkdir ./PROGRAMMES; mkdir ./TABLEAUX; mkdir ./URLS; # les lignes precedentes peuvent tenir sur une seule ligne # a savoir mkdir ."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé prepare-environnement-projet.sh
+#!/bin/bash mkdir PROJET_MOT_SUR_LE_WEB cd PROJET_MOT_SUR_LE_WEB # on peut désormais créer l&#39;arborescence de travail mkdir ./CONTEXTES; mkdir ./DUMP_TEXT; mkdir ./IMAGES; mkdir ./PAGES_ASPIREES; mkdir ./PROGRAMMES; mkdir ./TABLEAUX; mkdir ./URLS; # les lignes précédentes peuvent tenir sur une seule ligne # à savoir mkdir ."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -638,7 +638,7 @@ Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l
 <li>
 <ul>
 <li><a href="#configuration-du-terrain">Configuration du terrain</a></li>
-<li><a href="#etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier">Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier</a></li>
+<li><a href="#lecture-des-fichiers-url-et-écriture-de-leurs-contenus-dans-un-nouveau-fichier">Lecture des fichiers URL et écriture de leurs contenus dans un nouveau fichier</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -662,12 +662,12 @@ Configuration du terrain  Nous avons créé l&rsquo;arborescence de travail à l
 <h2 id="configuration-du-terrain">Configuration du terrain</h2>
 
 <ul>
-<li><p>Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé &lsquo;prepare-environnement-projet.sh&rsquo;</p>
+<li><p>Nous avons créé l&rsquo;arborescence de travail à l&rsquo;aide du script bash suivant nommé <code>prepare-environnement-projet.sh</code></p>
 
 <pre><code class="language-bash">#!/bin/bash
 mkdir PROJET_MOT_SUR_LE_WEB
 cd PROJET_MOT_SUR_LE_WEB
-# on peut desormais creer l'arborescence de travail
+# on peut désormais créer l'arborescence de travail
 mkdir ./CONTEXTES;
 mkdir ./DUMP_TEXT;
 mkdir ./IMAGES;
@@ -675,8 +675,8 @@ mkdir ./PAGES_ASPIREES;
 mkdir ./PROGRAMMES;
 mkdir ./TABLEAUX;
 mkdir ./URLS;
-# les lignes precedentes peuvent tenir sur une seule ligne
-# a savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
+# les lignes précédentes peuvent tenir sur une seule ligne
+# à savoir mkdir ./CONTEXTES ./DUMP_TEXT etc....
 # le dossier URLS contiendra le fichier initial d'URLs
 </code></pre></li>
 
@@ -686,9 +686,9 @@ mkdir ./URLS;
 </code></pre></li>
 </ul>
 
-<h2 id="etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier">Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier</h2>
+<h2 id="lecture-des-fichiers-url-et-écriture-de-leurs-contenus-dans-un-nouveau-fichier">Lecture des fichiers URL et écriture de leurs contenus dans un nouveau fichier</h2>
 
-<p><em>J&rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie</em></p>
+<p><em>J&rsquo;ai une remarque sur la manière de récupérer tous les fichiers dans un répertoire. J&rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie</em></p>
 
 <pre><code class="language-bash"># !/bin/bash
 # on commence par effacer l'éventuel contenu de ficher que l'on doit réécrire

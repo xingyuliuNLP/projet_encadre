@@ -29,7 +29,8 @@
     
   
   <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.">
+Segmentation du corpus chinois Pour la segmentation du corpus chinois, nous avions précédemment utilisé le stanford-segmenter. Pour comparer sa performance avec un module Python Jieba spécialisé dans la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module.
+#!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/7/">
@@ -225,7 +226,8 @@ Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semain
   <meta property="og:url" content="/projet_encadre/blog/7/">
   <meta property="og:title" content="Cours 9 - méthode 2 de de la segmentation du chinois | Guerre Commerciale">
   <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
-Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+Segmentation du corpus chinois Pour la segmentation du corpus chinois, nous avions précédemment utilisé le stanford-segmenter. Pour comparer sa performance avec un module Python Jieba spécialisé dans la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module.
+#!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -658,7 +660,7 @@ Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semain
 
 <h2 id="segmentation-du-corpus-chinois">Segmentation du corpus chinois</h2>
 
-<p>Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.</p>
+<p>Pour la segmentation du corpus chinois, nous avions précédemment utilisé le stanford-segmenter. Pour comparer sa performance avec un module Python Jieba spécialisé dans la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module.</p>
 
 <pre><code class="language-python">#!/usr/bin/python
 # _*_ coding: utf-8 _*_
