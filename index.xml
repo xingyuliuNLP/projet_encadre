@@ -149,9 +149,9 @@ bonjour
       <guid>/projet_encadre/blog/3/</guid>
       <description>
 
-&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
-&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration-du-terrain&#34;&gt;Configuration du terrain&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Nous avons créé l&amp;rsquo;arborescence de travail à l&amp;rsquo;aide du script bash suivant nommé &amp;lsquo;prepare-environnement-projet.sh&amp;rsquo;&lt;/p&gt;
@@ -177,8 +177,6 @@ mkdir ./URLS;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bash prepare-environnement-projet.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
 
 &lt;h2 id=&#34;etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/h2&gt;
 
