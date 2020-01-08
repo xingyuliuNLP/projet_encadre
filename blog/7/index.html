@@ -28,9 +28,8 @@
   
     
   
-  <meta name="description" content="Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. 
-
-#!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f.">
+  <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/7/">
@@ -225,9 +224,8 @@
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/projet_encadre/blog/7/">
   <meta property="og:title" content="Cours 9 - méthode 2 de de la segmentation du chinois | Guerre Commerciale">
-  <meta property="og:description" content="Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. 
-
-#!/usr/bin/python # _*_ coding: utf-8 _*_ # segment chinese text # modules import re import sys import jieba # functions def tokenize(file): # input file with open(file, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: content = f."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+  <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Segmentation du corpus chinois Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -633,7 +631,14 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#segmentation-du-corpus-chinois">Segmentation du corpus chinois</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -647,10 +652,13 @@
           <h1>Cours 9 - méthode 2 de de la segmentation du chinois</h1>
 
           <div class="article-style">
-            <p><font size="4">Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. </font></p>
+            
 
-<p><br>
-<br></p>
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
+
+<h2 id="segmentation-du-corpus-chinois">Segmentation du corpus chinois</h2>
+
+<p>Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.</p>
 
 <pre><code class="language-python">#!/usr/bin/python
 # _*_ coding: utf-8 _*_
@@ -683,17 +691,12 @@ if __name__ == &quot;__main__&quot;:
     token_file(sys.argv[2])
 </code></pre>
 
-<p><br>
-<font size="4"><font size="4">Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.</font></font>
-<br></p>
+<p>Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.</p>
 
 <pre><code class="language-bash">python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
 </code></pre>
 
-<p><br>
-<font size="4"><font size="4">Nous avons ensuite fait un test en prenant un de nos dump textes comme l&rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&rsquo;affiche en haut tandis que celui de Stanford se trouve en bas. </font></font>
-<br>
-<br></p>
+<p>Nous avons ensuite fait un test en prenant un de nos dump textes comme l&rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&rsquo;affiche en haut tandis que celui de Stanford se trouve en bas.</p>
 
 <p><img src="/blog/screenshot_515.jpg"></p>
 

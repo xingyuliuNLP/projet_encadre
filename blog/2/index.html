@@ -28,8 +28,8 @@
   
     
   
-  <meta name="description" content="1. Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur
-# flux d’erreur standard &quot;&gt;&gt;&quot; (sortie normal) vs. 2&gt; (canal d’erreur) cd ~ lsd &gt; sortie.txt 2&gt; erreur.txt # exercice : transformer tous les n en N d&#39;un fichier et l&#39;enregistrer dans un autre fichier tr &quot;n&quot; &quot;N&quot; &lt; test.txt &gt; testN.txt cat testN.txt # Exercice : majusculiser les données tr &quot;[[:lower:]]&quot; &quot;[[:upper:]]&quot; &lt; test.txt  BoNjour BONJOUR  2. Redirection du flux d’information Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |">
+  <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur # flux d’erreur standard &quot;&gt;&gt;&quot; (sortie normal) vs. 2&gt; (canal d’erreur) cd ~ lsd &gt; sortie.txt 2&gt; erreur.txt # exercice : transformer tous les n en N d&#39;un fichier et l&#39;enregistrer dans un autre fichier tr &quot;n&quot; &quot;N&quot; &lt; test.txt &gt; testN.txt cat testN.txt # Exercice : majusculiser les données tr &quot;[[:lower:]]&quot; &quot;[[:upper:]]&quot; &lt; test.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/2/">
@@ -224,8 +224,8 @@
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/projet_encadre/blog/2/">
   <meta property="og:title" content="Cours 3 - Préambule Unix II | Guerre Commerciale">
-  <meta property="og:description" content="1. Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur
-# flux d’erreur standard &quot;&gt;&gt;&quot; (sortie normal) vs. 2&gt; (canal d’erreur) cd ~ lsd &gt; sortie.txt 2&gt; erreur.txt # exercice : transformer tous les n en N d&#39;un fichier et l&#39;enregistrer dans un autre fichier tr &quot;n&quot; &quot;N&quot; &lt; test.txt &gt; testN.txt cat testN.txt # Exercice : majusculiser les données tr &quot;[[:lower:]]&quot; &quot;[[:upper:]]&quot; &lt; test.txt  BoNjour BONJOUR  2. Redirection du flux d’information Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |"><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+  <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur # flux d’erreur standard &quot;&gt;&gt;&quot; (sortie normal) vs. 2&gt; (canal d’erreur) cd ~ lsd &gt; sortie.txt 2&gt; erreur.txt # exercice : transformer tous les n en N d&#39;un fichier et l&#39;enregistrer dans un autre fichier tr &quot;n&quot; &quot;N&quot; &lt; test.txt &gt; testN.txt cat testN.txt # Exercice : majusculiser les données tr &quot;[[:lower:]]&quot; &quot;[[:upper:]]&quot; &lt; test."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -631,7 +631,16 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#flux-d-entrée-de-sortie-d-erreur">Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur</a></li>
+<li><a href="#redirection-du-flux-d-information">Redirection du flux d’information</a></li>
+<li><a href="#sectionner-les-données-par-champ-un-champ-est-defini-par-un-symbole-qui-delimite-ce-champ-particulier">Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -645,7 +654,11 @@
           <h1>Cours 3 - Préambule Unix II</h1>
 
           <div class="article-style">
-            <p><center><font size="3" color="blue">1. Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur</font></center></p>
+            
+
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
+
+<h2 id="flux-d-entrée-de-sortie-d-erreur">Flux d&rsquo;entrée &amp; de sortie &amp; d&rsquo;erreur</h2>
 
 <pre><code class="language-bash"># flux d’erreur standard &quot;&gt;&gt;&quot; (sortie normal) vs. 2&gt; (canal d’erreur)
 cd ~
@@ -661,9 +674,9 @@ tr &quot;[[:lower:]]&quot; &quot;[[:upper:]]&quot; &lt; test.txt
 BONJOUR
 </code></pre>
 
-<p><center><font size="3" color="blue">2. Redirection du flux d’information</font></center>
-<br>
-Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |</p>
+<h2 id="redirection-du-flux-d-information">Redirection du flux d’information</h2>
+
+<p>Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |</p>
 
 <pre><code class="language-bash"># transformer &quot;é&quot; en &quot;E&quot; puis majusculiser l'output de la première commande
 cd ~
@@ -676,7 +689,7 @@ egrep -o &quot;\w+&quot; test.txt | sort | uniq -c
    1 Bonjour
 </code></pre>
 
-<p><center><font size="3" color="blue">3. Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)</font></center></p>
+<h2 id="sectionner-les-données-par-champ-un-champ-est-defini-par-un-symbole-qui-delimite-ce-champ-particulier">Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)</h2>
 
 <pre><code class="language-bash"># couper les données en 2 champs par le délimiteur &quot;=&quot;
 cd ~

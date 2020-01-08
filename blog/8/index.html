@@ -28,7 +28,8 @@
   
     
   
-  <meta name="description" content="Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au blog d&rsquo;un ancien camarade, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal.  #!/bin/bash # importer les fonctions . /Users/becca/Documents/nlp/coursS1/projetEncadre/PROJET-MOT-SUR-LE-WEB/PROGRAMMES/functions.sh #--------------------Main part-----------------# # on commence par supprimer l&#39;éventuel fichier de résultat que l&#39;on doit reconstruire rm -f &quot;$2/tableau2.">
+  <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au blog d&rsquo;un ancien camarade, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/8/">
@@ -223,7 +224,8 @@
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/projet_encadre/blog/8/">
   <meta property="og:title" content="Cours 10 - Reconstruction du code (Refactoring) | Guerre Commerciale">
-  <meta property="og:description" content="Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au blog d&rsquo;un ancien camarade, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal.  #!/bin/bash # importer les fonctions . /Users/becca/Documents/nlp/coursS1/projetEncadre/PROJET-MOT-SUR-LE-WEB/PROGRAMMES/functions.sh #--------------------Main part-----------------# # on commence par supprimer l&#39;éventuel fichier de résultat que l&#39;on doit reconstruire rm -f &quot;$2/tableau2."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+  <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au blog d&rsquo;un ancien camarade, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -629,7 +631,15 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#script-principal">Script principal</a></li>
+<li><a href="#fonctions">Fonctions</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -643,9 +653,13 @@
           <h1>Cours 10 - Reconstruction du code (Refactoring)</h1>
 
           <div class="article-style">
-            <p><font size="4"><font size="4">Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au <a href="https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/">blog d&rsquo;un ancien camarade</a>, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. </font></font>
-<br>
-<br></p>
+            
+
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
+
+<p>Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au <a href="https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/">blog d&rsquo;un ancien camarade</a>, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret.</p>
+
+<h2 id="script-principal">Script principal</h2>
 
 <pre><code class="language-bash">#!/bin/bash
 # importer les fonctions
@@ -713,8 +727,7 @@ done
 echo &quot;&lt;/body&gt;&lt;/html&gt;&quot; &gt;&gt; $2/tableau2.html ;
 </code></pre>
 
-<p><br>
-<br></p>
+<h2 id="fonctions">Fonctions</h2>
 
 <pre><code class="language-bash">## functions
 # 1 html head

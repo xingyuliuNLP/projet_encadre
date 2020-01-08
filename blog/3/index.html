@@ -631,7 +631,14 @@
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier">Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -645,7 +652,9 @@
           <h1>Cours 4 - Préparation du projet</h1>
 
           <div class="article-style">
-            <p><center><font size="3" color="blue"><center><font size="3" color="blue">Configuration du terrain
+            
+
+<p><center><font size="3" color="blue"><center><font size="3" color="blue">Configuration du terrain
 </font></center></font></center>
 <br></p>
 
@@ -674,9 +683,11 @@ mkdir ./URLS;
 </code></pre></li>
 </ul>
 
-<p><center><font size="3" color="blue"><center><font size="3" color="blue">Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier</font></center></font></center>
-<br>
-<em>J&rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie</em></p>
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
+
+<h2 id="etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier">Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier</h2>
+
+<p><em>J&rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie</em></p>
 
 <pre><code class="language-bash"># !/bin/bash
 # on commence par effacer l'éventuel contenu de ficher que l'on doit réécrire

@@ -28,10 +28,8 @@
   
     
   
-  <meta name="description" content="Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.
-
-Les 4 colonnes rajoutées sont :
- le contexte de mot-clé sa fréquence dans chaque fichier dump l&rsquo;index des mots présents dans chaque fichier dump les bigrammes">
+  <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Arguments Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/5/">
@@ -226,10 +224,8 @@ Les 4 colonnes rajoutées sont :
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/projet_encadre/blog/5/">
   <meta property="og:title" content="Cours 7 - Rajouter 4 colonnes dans la table d&#39;URLs | Guerre Commerciale">
-  <meta property="og:description" content="Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.
-
-Les 4 colonnes rajoutées sont :
- le contexte de mot-clé sa fréquence dans chaque fichier dump l&rsquo;index des mots présents dans chaque fichier dump les bigrammes"><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+  <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Arguments Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -635,7 +631,17 @@ Les 4 colonnes rajoutées sont :
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#arguments">Arguments</a></li>
+<li><a href="#colonnes-rajoutées">Colonnes rajoutées</a></li>
+<li><a href="#minigrep-ou-egrep">Minigrep ou egrep</a></li>
+<li><a href="#stanford-chinese-segmenter">Stanford Chinese Segmenter</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -649,9 +655,15 @@ Les 4 colonnes rajoutées sont :
           <h1>Cours 7 - Rajouter 4 colonnes dans la table d&#39;URLs</h1>
 
           <div class="article-style">
-            <p>Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.</p>
+            
 
-<p><br></p>
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
+
+<h2 id="arguments">Arguments</h2>
+
+<p>Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&rsquo;input URL et celui de l&rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &lsquo;guerre commerciale|trade war|贸易战&rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.</p>
+
+<h2 id="colonnes-rajoutées">Colonnes rajoutées</h2>
 
 <p>Les 4 colonnes rajoutées sont :</p>
 
@@ -662,11 +674,9 @@ Les 4 colonnes rajoutées sont :
 <li>les bigrammes</li>
 </ul>
 
-<p><br>
-<br>
-<center><font size="3" color="blue"><center><font size="3" color="blue">Minigrep ou egrep</font></center></font></center><br>
-<font size="4"><font size="4">Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep</font></font>
-<br></p>
+<h2 id="minigrep-ou-egrep">Minigrep ou egrep</h2>
+
+<p>Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep</p>
 
 <pre><code class="language-bash"># ----06/11
 # METHODE 1 : trouver la ligne avant et la ligne après de la ligne contenant notre mot-clé avec egrep
@@ -692,10 +702,9 @@ paste fic1 fic2 | sort | uniq -c | sort -gr &gt; '../DUMP-TEXT/bigrams-$numerota
 frqMotif=$(egrep -oc $motif '../DUMP-TEXT/$numerotableau-$compteur.txt');
 </code></pre>
 
-<p><br>
-<br>
-<center><font size="3" color="blue"><center><font size="3" color="blue">Stanford Chinese Segmenter</font></center></font></center><br>
-<font size="4"><font size="4">Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&rsquo;usage de cet outil, tout est clair sur son site (<a href="https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml">https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml</a>] </font></font></p>
+<h2 id="stanford-chinese-segmenter">Stanford Chinese Segmenter</h2>
+
+<p>Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&rsquo;usage de cet outil, tout est clair sur son site (<a href="https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml">https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml</a>]</p>
 
 <pre><code class="language-bash">sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
 </code></pre>

@@ -82,7 +82,11 @@ Bonjour
       <link>/projet_encadre/blog/2/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/projet_encadre/blog/2/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;1. Flux d&amp;rsquo;entrée &amp;amp; de sortie &amp;amp; d&amp;rsquo;erreur&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;flux-d-entrée-de-sortie-d-erreur&#34;&gt;Flux d&amp;rsquo;entrée &amp;amp; de sortie &amp;amp; d&amp;rsquo;erreur&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# flux d’erreur standard &amp;quot;&amp;gt;&amp;gt;&amp;quot; (sortie normal) vs. 2&amp;gt; (canal d’erreur)
 cd ~
@@ -98,9 +102,9 @@ tr &amp;quot;[[:lower:]]&amp;quot; &amp;quot;[[:upper:]]&amp;quot; &amp;lt; test
 BONJOUR
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;2. Redirection du flux d’information&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;
-Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |&lt;/p&gt;
+&lt;h2 id=&#34;redirection-du-flux-d-information&#34;&gt;Redirection du flux d’information&lt;/h2&gt;
+
+&lt;p&gt;Récupérer l’output de la première commande et le réenvoyer à la deuxième commande - symbole clé : pipe |&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# transformer &amp;quot;é&amp;quot; en &amp;quot;E&amp;quot; puis majusculiser l&#39;output de la première commande
 cd ~
@@ -113,7 +117,7 @@ egrep -o &amp;quot;\w+&amp;quot; test.txt | sort | uniq -c
    1 Bonjour
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;3. Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/font&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sectionner-les-données-par-champ-un-champ-est-defini-par-un-symbole-qui-delimite-ce-champ-particulier&#34;&gt;Sectionner les données par champ (un champ est defini par un symbole qui delimite ce champ particulier)&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# couper les données en 2 champs par le délimiteur &amp;quot;=&amp;quot;
 cd ~
@@ -143,7 +147,9 @@ bonjour
       <link>/projet_encadre/blog/3/</link>
       <pubDate>Wed, 09 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/projet_encadre/blog/3/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
+      <description>
+
+&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Configuration du terrain
 &lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -172,9 +178,11 @@ mkdir ./URLS;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;
-&lt;em&gt;J&amp;rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&amp;rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&amp;rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;etape-1-lire-les-fichiers-url-et-écrire-leurs-contenus-ligne-par-ligne-dans-un-nouveau-fichier&#34;&gt;Etape 1 : lire les fichiers URL et écrire leurs contenus ligne par ligne dans un nouveau fichier&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;J&amp;rsquo;ai une remarque sur la manière dont on utilise pour récupérer tous les fichiers dans un répertoire. J&amp;rsquo;ai utilisé /chemin/* au lieu de $(ls /chemin) car ce dernier m&amp;rsquo;apparaît un peu lourd mais je vois pas leur différence au niveau de sortie&lt;/em&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# !/bin/bash
 # on commence par effacer l&#39;éventuel contenu de ficher que l&#39;on doit réécrire
@@ -207,8 +215,11 @@ done
       <link>/projet_encadre/blog/4/</link>
       <pubDate>Wed, 23 Oct 2019 00:00:00 +0200</pubDate>
       <guid>/projet_encadre/blog/4/</guid>
-      <description>&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;pour-conclure-ce-que-nous-avons-fait-les-trois-dernières-séances&#34;&gt;Pour conclure ce que nous avons fait les trois dernières séances :&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Nous avons établi d’abord des tables de base contenant des URLs. Ce qui est réalisé à l’aide de deux boucles for, une pour parcourir tous nos fichiers d’URLs et construire une table pour chaque fichier, soit chaque langue ainsi que la deuxième servant à lire les URLs et les écrire dans nos tables ligne à ligne. Nous avons appris que le shell utilise des variables d’environnement dont l’on peut faire apparaître le contenu avec le signe dollars “$”. En utilisant ce signe, nous pouvons stocker et réutiliser le numéro de ligne et le contenu de ligne.&lt;/p&gt;&lt;/li&gt;
@@ -219,10 +230,7 @@ done
 &lt;img src=&#34;/projet_encadre/projet_encadre/blog/2019-10-23-séance-4-détection-de-l-encodage-d-url_files/tableUrl.jpg&#34; width =&#34;95%&#34;&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Problèmes rencontrés&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;problèmes-rencontrés&#34;&gt;Problèmes rencontrés&lt;/h2&gt;
 
 &lt;p&gt;Je n’ai pas pris conscience de l’influence d’espace dans le script bash jusqu’au moment de l’apparition des informations d’erreurs suivantes :&lt;/p&gt;
 
@@ -326,9 +334,15 @@ echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp
       <link>/projet_encadre/blog/5/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/projet_encadre/blog/5/</guid>
-      <description>&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;arguments&#34;&gt;Arguments&lt;/h2&gt;
+
+&lt;p&gt;Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l&amp;rsquo;input URL et celui de l&amp;rsquo;output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc &amp;lsquo;guerre commerciale|trade war|贸易战&amp;rsquo; pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.&lt;/p&gt;
+
+&lt;h2 id=&#34;colonnes-rajoutées&#34;&gt;Colonnes rajoutées&lt;/h2&gt;
 
 &lt;p&gt;Les 4 colonnes rajoutées sont :&lt;/p&gt;
 
@@ -339,11 +353,9 @@ echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp
 &lt;li&gt;les bigrammes&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Minigrep ou egrep&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep&lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;minigrep-ou-egrep&#34;&gt;Minigrep ou egrep&lt;/h2&gt;
+
+&lt;p&gt;Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# ----06/11
 # METHODE 1 : trouver la ligne avant et la ligne après de la ligne contenant notre mot-clé avec egrep
@@ -369,10 +381,9 @@ paste fic1 fic2 | sort | uniq -c | sort -gr &amp;gt; &#39;../DUMP-TEXT/bigrams-$
 frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;&lt;center&gt;&lt;font size=&#34;3&#34; color=&#34;blue&#34;&gt;Stanford Chinese Segmenter&lt;/font&gt;&lt;/center&gt;&lt;/font&gt;&lt;/center&gt;&lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&amp;rsquo;usage de cet outil, tout est clair sur son site (&lt;a href=&#34;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&#34;&gt;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&lt;/a&gt;] &lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;h2 id=&#34;stanford-chinese-segmenter&#34;&gt;Stanford Chinese Segmenter&lt;/h2&gt;
+
+&lt;p&gt;Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l&amp;rsquo;usage de cet outil, tout est clair sur son site (&lt;a href=&#34;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&#34;&gt;https://nlp.stanford.edu/software/segmenter.shtml)[https://nlp.stanford.edu/software/segmenter.shtml&lt;/a&gt;]&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
 &lt;/code&gt;&lt;/pre&gt;
@@ -397,10 +408,13 @@ frqMotif=$(egrep -oc $motif &#39;../DUMP-TEXT/$numerotableau-$compteur.txt&#39;)
       <link>/projet_encadre/blog/7/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/projet_encadre/blog/7/</guid>
-      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. &lt;/font&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;h2 id=&#34;segmentation-du-corpus-chinois&#34;&gt;Segmentation du corpus chinois&lt;/h2&gt;
+
+&lt;p&gt;Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/python
 # _*_ coding: utf-8 _*_
@@ -433,17 +447,12 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     token_file(sys.argv[2])
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.&lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&amp;rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&amp;rsquo;affiche en haut tandis que celui de Stanford se trouve en bas. &lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&amp;rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&amp;rsquo;affiche en haut tandis que celui de Stanford se trouve en bas.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/projet_encadre/blog/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
 </description>
@@ -454,9 +463,13 @@ if __name__ == &amp;quot;__main__&amp;quot;:
       <link>/projet_encadre/blog/8/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0100</pubDate>
       <guid>/projet_encadre/blog/8/</guid>
-      <description>&lt;p&gt;&lt;font size=&#34;4&#34;&gt;&lt;font size=&#34;4&#34;&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret. Voici le script principal. &lt;/font&gt;&lt;/font&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;code&gt;N.B.&lt;/code&gt; Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.&lt;/p&gt;
+
+&lt;p&gt;Pour que notre script final soit plus lisible et claire, nous essayons de remanier notre code en mettant chaque processus dans une fonction. Grâce au &lt;a href=&#34;https://projettal.wordpress.com/2018/11/12/journal-de-travail-seance-2018-11-07-lt/&#34;&gt;blog d&amp;rsquo;un ancien camarade&lt;/a&gt;, un exemple auquel on peut faire référence, nous avons pu comprendre le foctionnement des fonctions en bash dans un cas précis et concret.&lt;/p&gt;
+
+&lt;h2 id=&#34;script-principal&#34;&gt;Script principal&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
 # importer les fonctions
@@ -524,8 +537,7 @@ done
 echo &amp;quot;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot; &amp;gt;&amp;gt; $2/tableau2.html ;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fonctions&#34;&gt;Fonctions&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## functions
 # 1 html head
