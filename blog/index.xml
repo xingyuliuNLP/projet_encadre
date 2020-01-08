@@ -224,9 +224,10 @@ done
 
 &lt;li&gt;&lt;p&gt;Ayant pour but de scrap le contenu de page web et faire éventuellement des analyses textuelles au-dessus, nous avons utiliser les commandes curl et lynx. Deux nouvelles colonnes ont été rajoutées pour les liens locaux de fichier html et txt dirigés vers le contenu sans format et celui de texte brut de page web.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.
-&lt;img src=&#34;/projet_encadre/projet_encadre/blog/table.jpg&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Or, ce processus de scrap n’est pas si facile à cause des problèmes d’URLs ou de l’encodage. Nous avons ainsi détecté si le code d’état de page web est 200 qui veut dire le succès de la requête et si l’encodage est UTF-8. Le résultat de ces vérification décide nos prochains processus. Ces deux information ont également été rajoutées dans nos tables.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/table.jpg&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;problèmes-rencontrés&#34;&gt;Problèmes rencontrés&lt;/h2&gt;
 
@@ -450,7 +451,7 @@ if __name__ == &amp;quot;__main__&amp;quot;:
 
 &lt;p&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&amp;rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&amp;rsquo;affiche en haut tandis que celui de Stanford se trouve en bas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/projet_encadre/blog/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
