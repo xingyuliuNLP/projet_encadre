@@ -28,8 +28,9 @@
   
     
   
-  <meta name="description" content="Système de fichiers
-Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence. pwd # print repertoire actuel cd .. # remonte au repertoire parent cd / # aller a la racine echo &quot;# exemple de l&#39;arborescence de la racine sous Mac&quot; ls # exemple de l&#39;arborescence de la racine sous Mac cd ~ # aller a home echo &quot;# sortie de la commande cat&quot; echo &quot;Bonjour&quot; &gt; test.">
+  <meta name="description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Système de fichiers Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
+# print repertoire actuel pwd # remonte au repertoire parent cd .. # aller a la racine cd / echo &quot;# exemple de l&#39;arborescence de la racine sous Mac&quot; # exemple de l&#39;arborescence de la racine sous Mac ls # aller a home cd ~ echo &quot;# sortie de la commande cat&quot; echo &quot;Bonjour&quot; &gt; test.">
 
   
   <link rel="alternate" hreflang="fr" href="/projet_encadre/blog/1/">
@@ -224,8 +225,9 @@ Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une
   <meta property="og:site_name" content="Guerre Commerciale">
   <meta property="og:url" content="/projet_encadre/blog/1/">
   <meta property="og:title" content="Cours 2 - Préambule Unix I | Guerre Commerciale">
-  <meta property="og:description" content="Système de fichiers
-Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence. pwd # print repertoire actuel cd .. # remonte au repertoire parent cd / # aller a la racine echo &quot;# exemple de l&#39;arborescence de la racine sous Mac&quot; ls # exemple de l&#39;arborescence de la racine sous Mac cd ~ # aller a home echo &quot;# sortie de la commande cat&quot; echo &quot;Bonjour&quot; &gt; test."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
+  <meta property="og:description" content="N.B. Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.
+Système de fichiers Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
+# print repertoire actuel pwd # remonte au repertoire parent cd .. # aller a la racine cd / echo &quot;# exemple de l&#39;arborescence de la racine sous Mac&quot; # exemple de l&#39;arborescence de la racine sous Mac ls # aller a home cd ~ echo &quot;# sortie de la commande cat&quot; echo &quot;Bonjour&quot; &gt; test."><meta property="og:image" content="/projet_encadre/img/icon-192.png">
   <meta property="twitter:image" content="/projet_encadre/img/icon-192.png"><meta property="og:locale" content="fr">
   
     
@@ -609,7 +611,14 @@ Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une
         <li><a href="#" id="back_to_top" class="docs-toc-title">Contenus</a></li>
       </ul>
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#système-de-fichiers">Système de fichiers</a></li>
+</ul></li>
+</ul>
+</nav>
 
       
     </div>
@@ -623,22 +632,32 @@ Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une
           <h1>Cours 2 - Préambule Unix I</h1>
 
           <div class="article-style">
-            <p><center><font size="3" color="blue">Système de fichiers</font></center></p>
+            
 
-<p>Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
-<br></p>
+<p><code>N.B.</code> Les explications de chaque commande ou de chaque bloc de codes sont données dans les commentaires.</p>
 
-<pre><code class="language-bash">pwd # print repertoire actuel
-cd .. # remonte au repertoire parent
-cd / # aller a la racine
+<h2 id="système-de-fichiers">Système de fichiers</h2>
+
+<p>Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.</p>
+
+<pre><code class="language-bash"># print repertoire actuel
+pwd
+# remonte au repertoire parent
+cd .. 
+# aller a la racine
+cd / 
 echo &quot;# exemple de l'arborescence de la racine sous Mac&quot;
-ls # exemple de l'arborescence de la racine sous Mac
-cd ~ # aller a home
+# exemple de l'arborescence de la racine sous Mac
+ls 
+# aller a home
+cd ~ 
 echo &quot;# sortie de la commande cat&quot;
 echo &quot;Bonjour&quot; &gt; test.txt
-cat test.txt # visualiser le contenu d'un fichier
+# visualiser le contenu d'un fichier
+cat test.txt 
 echo &quot;# montrer les metadonnes du contenu&quot;
-wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
+# la commande egale wc -mlw, m = caractere l = ligne, w = mots
+wc test.txt 
 </code></pre>
 
 <pre><code>/Users/becca/Downloads/siteProjetEncadre/content/blog
