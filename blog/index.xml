@@ -445,13 +445,15 @@ if __name__ == &amp;quot;__main__&amp;quot;:
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;h2 id=&#34;comparaison-jieba-vs&#34;&gt;Comparaison : Jieba vs.&lt;/h2&gt;
+
 &lt;p&gt;Nous avons ensuite fait un test en prenant un de nos dump textes comme l&amp;rsquo;input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s&amp;rsquo;affiche en haut tandis que celui de Stanford se trouve en bas.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/projet_encadre/projet_encadre/blog/screenshot_515.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Nous pouvons remarquer que le résultat de Jieba est plus satisfasant et se conforme aux habitudes chinoises. Sa reconnaissance des entités nommées, entre autres, ont montré une haute précision.&lt;/p&gt;
 
-&lt;p&gt;Nous avons décidé donc d&amp;rsquo;utiliser notre script Jieba pour la segmentation du corpus chinois dans notre programme final&lt;/p&gt;
+&lt;p&gt;Nous avons décidé donc d&amp;rsquo;utiliser notre script Jieba pour la segmentation du corpus chinois dans notre programme final.&lt;/p&gt;
 </description>
     </item>
     
